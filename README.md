@@ -6,8 +6,8 @@ Sometimes it's better to listen podcasts on your PC. But CH team does not give s
  
 It's for personal use only. I respect the job CH devs made so please you this app only as an addition to mobile version.
 
-##Supported platforms (including speaking)
-Windows, macOS, linux.
+## Supported platforms (including speaking)
+Windows, macOS, linux
 
 ## You need to register in iOS version to decrease the chances to be banned
 That's why I don't implement registration finishing step in the app.
@@ -33,7 +33,7 @@ That's why I don't implement registration finishing step in the app.
 ## How to install and use
 There are 2 parts - first is backend for webapp installable via docker, and the second one is the local audio client (if you want to join channels) installed via normal setup.
 
-1.**Install webapp**:
+**1.Install webapp**:
 
 [Install docker](https://docs.docker.com/get-docker/) if not installed (windows, macOS, linux setup).
 
@@ -49,7 +49,7 @@ Or (alternatively) you can download java 11, install it, open terminal/console a
 
 And open http://localhost:8080/ in you browser. That's it (go to step 2)!
 
-2.**Install audio client**
+**2.Install audio client**
 
 If you want to join to channels and use audio features, you also need to setup audio connector on your local PC, prebuilt binaries are located in:
 ```agora-bridge/electron/prebuilds```
@@ -61,7 +61,7 @@ Note that audio client has to be run before you join the channel or you'll get e
 
 --------------------------
 
-**For developers**:
+**For developers only**:
 
 **Web app**:
 
@@ -75,6 +75,9 @@ json responses instead of sending requests to CH). And
 Will start app under dev profile.
 
 **Audio client**:
+
+Inside agora-bridge/electron:
+
 ```
 npm install
 npm run dist
@@ -128,6 +131,10 @@ CH uses Agora for audio communications, and Agora supports two kind of clients -
 CH team banned support of WebRTC for their channels so we have to use native client and run it on windows, macOS, linux.
 I've chosen electron sdk (but connected it via WebSockets so you can write other clients if you need to).
 I'm using linux and Agora does not support native clients for linux but after many trials I've found a way to run this client on Ubuntu via wine.
+
+> Where are the javadocs?
+
+PRs are welcome.
 
 ### References
 * https://github.com/stypr/clubhouse-py/ (Python build)

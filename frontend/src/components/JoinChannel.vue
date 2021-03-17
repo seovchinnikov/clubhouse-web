@@ -331,7 +331,7 @@
                 const channels = ["users." + this.currentUser.user_id,
                     "channel_user." + response.channel + "." + this.currentUser.user_id, "channel_all." + response.channel,
                 ];
-                if (this.isSpeaker) {
+                if (this.isModerator) {
                     channels.push("channel_speakers." + response.channel);
                 }
                 this.pubnub.subscribe({
