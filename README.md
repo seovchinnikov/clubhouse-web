@@ -103,6 +103,14 @@ npm run dev
 
 Will start app in debug mode.
 
+## Some screenshots
+
+![Channel list](images/channel_list.png)
+
+![Room](images/room.png)
+
+![Profile](images/profile.png)
+
 ## WARNING
 
 * ___FOR REFERENCE AND EDUCATION PURPOSES ONLY. THIS DOES NOT COME WITH ANY KINDS OF WARRANTY.___
