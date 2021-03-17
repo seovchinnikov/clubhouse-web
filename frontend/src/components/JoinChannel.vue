@@ -502,10 +502,11 @@
 
         protected onUserJoined(user: GetChannelUserProfile) {
             const idx = this.allUsers.findIndex(value => String(value.user_id) === String(user.user_id));
+            user.raise_hands = false;
             if (idx < 0) {
-                this.allUsers.push(user)
+                this.allUsers.push(user);
             } else {
-                const found = this.allUsers[idx]
+                const found = this.allUsers[idx];
                 if (found.is_speaker != user.is_speaker) {
                     this.allUsers.splice(idx, 1);
                     this.allUsers.push(user)
