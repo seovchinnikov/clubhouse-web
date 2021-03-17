@@ -1,49 +1,47 @@
 <template>
-    <v-card>
-        <header class="jumbotron">
-            <h3>
-                <strong>{{ currentUser ? currentUser.username : ""}}</strong> Profile
-                <span
-                        v-show="loading"
-                        class="spinner-border spinner-border-sm"
-                ></span>
-            </h3>
-        </header>
-        <p>
-            <v-alert v-if="errorMessage"
-                     prominent
-                     type="error"
-            >
-                {{ errorMessage }}
-            </v-alert>
-        </p>
-        <p>
-            <strong>Token:</strong>
-            {{ currentUser ? currentUser.token.substring(0, 6) : ""}} ...
-            {{ currentUser ? currentUser.token.substr(currentUser.token.length - 6) : "" }}
-        </p>
-        <p>
-            <strong>CH Token:</strong>
-            {{ currentUser ? currentUser.user_token : "" }}
-        </p>
-        <p>
-            <strong>Id:</strong>
-            {{ currentUser ? currentUser.user_id : "" }}
-        </p>
-        <p>
-            <strong>Name:</strong>
-            {{ currentUser ? currentUser.name : "" }}
-        </p>
-        <p>
-            <strong>Username:</strong>
-            {{ currentUser ? currentUser.username : "" }}
-        </p>
-        <strong>Authorities:</strong>
-        <ul>
-            <li v-for="(role, index) in currentUser ? currentUser.roles : []" :key="index">
-                {{ role }}
-            </li>
-        </ul>
+    <v-card max-width="774" class="mx-auto my-12">
+        <v-card-title>{{ currentUser ? currentUser.username : ""}} Inner profile</v-card-title>
+
+        <v-container>
+            <p><strong>That's just a temp page until you finish your ClubHouse registration!</strong></p>
+            <p>
+                <v-alert v-if="errorMessage"
+                         prominent
+                         type="error"
+                >
+                    {{ errorMessage }}
+                </v-alert>
+            </p>
+            <p>
+                <strong>Inner token:</strong>
+                {{ currentUser ? currentUser.token.substring(0, 6) : ""}} ...
+                {{ currentUser ? currentUser.token.substr(currentUser.token.length - 6) : "" }}
+            </p>
+            <p>
+                <strong>CH Token:</strong>
+                {{ currentUser && currentUser.user_token ? currentUser.user_token.substring(0, 6) : ""}} ...
+                {{ currentUser && currentUser.user_token ? currentUser.user_token.substr(currentUser.user_token.length -
+                6) : "" }}
+            </p>
+            <p>
+                <strong>Id:</strong>
+                {{ currentUser ? currentUser.user_id : "" }}
+            </p>
+            <p>
+                <strong>Name:</strong>
+                {{ currentUser ? currentUser.name : "" }}
+            </p>
+            <p>
+                <strong>Username:</strong>
+                {{ currentUser ? currentUser.username : "" }}
+            </p>
+            <strong>Authorities:</strong>
+            <ul>
+                <li v-for="(role, index) in currentUser ? currentUser.roles : []" :key="index">
+                    {{ role }}
+                </li>
+            </ul>
+        </v-container>
     </v-card>
 </template>
 

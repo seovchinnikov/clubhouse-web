@@ -94,7 +94,7 @@
                                 setTimeout(() => this.$router.push({path: '/waitlist'}).catch(), 3000);
                             }
                         } else {
-                            this.message = "You are still has not boarded in the app!";
+                            this.message = "You still has not boarded in the app!";
                         }
                     },
                     (error) => {
