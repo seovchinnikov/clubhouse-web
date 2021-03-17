@@ -1,0 +1,57 @@
+{
+  "club": {
+    "club_id": 1166386798,
+    "name": "test",
+    "description": "MUSIC МУЗЫКА MUSICAL 🎶🎼🎵Elon Musk welcome to clubhouse in my club 🐵🙊🙉🙈Классика BEETHOVEN, Шуберт, Моцарт, БАХ,Ленинград и Драм ",
+    "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+    "num_members": 8,
+    "num_followers": 0,
+    "enable_private": true,
+    "is_follow_allowed": true,
+    "is_membership_private": false,
+    "is_community": false,
+    "rules": [
+      {
+        "desc": "",
+        "title": "Don’t speak "
+      },
+      {
+        "desc": "",
+        "title": "Don’t mute "
+      },
+      {
+        "desc": "",
+        "title": "Just Dance "
+      }
+    ],
+    "url": "https://www.joinclubhouse.com/club/-2",
+    "num_online": 0
+  },
+  "is_admin": false,
+  "is_member": false,
+  "is_follower": false,
+  "is_pending_accept": false,
+  "is_pending_approval": false,
+  "added_by_user_profile": null,
+  "member_user_ids": [],
+  "num_invites": 0,
+  "invite_link": null,
+  "topics": [
+    {
+      "title": "💃🏽 Dance",
+      "id": 55,
+      "abbreviated_title": "Dance"
+    },
+    {
+      "title": "🎧 Music",
+      "id": 74,
+      "abbreviated_title": "Music"
+    },
+    {
+      "title": " Chill Vibes",
+      "id": 156,
+      "abbreviated_title": "Chill Vibes"
+    }
+  ],
+  "success": true
+}

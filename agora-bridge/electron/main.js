@@ -1,0 +1,50 @@
+// Basic init
+const electron = require('electron');
+const {app, BrowserWindow} = electron;
+const {format} = require('url');
+const path = require('path');
+
+const isDevelopment = process.env["NODE_ENV"] === "development";
+// Let electron reloads by itself when webpack watches changes in ./app/
+if (isDevelopment) {
+    //only load reload module in dev mode
+    require('electron-reload')(path.join(__dirname, "src"));
+}
+
+// To avoid being garbage collected
+let mainWindow
+
+app.on('ready', () => {
+
+    mainWindow = new BrowserWindow({
+        width: 120,
+        height: 120,
+        webPreferences: {
+            nodeIntegration: true
+        }
+    })
+
+    if (isDevelopment) {
+        mainWindow.openDevTools();
+    }
+
+    if (isDevelopment) {
+        mainWindow.loadURL(`file://${__dirname}/index.html`);
+    } else {
+        mainWindow.loadURL(format({
+            pathname: path.join(__dirname, 'index.html'),
+            protocol: 'file',
+            slashes: true
+        }));
+    }
+
+    mainWindow.on('closed', function () {
+        mainWindow = null;
+    })
+
+});
+
+app.on('window-all-closed', () => {
+    mainWindow = null;
+    app.quit();
+});

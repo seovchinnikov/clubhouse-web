@@ -1,0 +1,1109 @@
+{
+  "events": [
+    {
+      "event_id": 515581950,
+      "name": "Neuro: Бикамеральный разум и “Мир Дикого запада”",
+      "description": "Поговорим о на следующие темы: \n\n✔️Как сериал “Westworld” вдохнул новую жизнь в теорию Джулиана Джейнса о двухпалатном разуме?\n✔️Как себя чувствует эта знаменитая теория 70-ых в эпоху нейробиологии?\n✔️Какие ещё современные теории пытаются подобрать ключи к феномену сознания? ",
+      "time_start": "2021-03-04T08:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/PAJKzzoQ",
+      "hosts": [
+        {
+          "user_id": 182870180,
+          "name": "Andrey Stepanov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "truestepanov",
+          "bio": "Mind & Brain Researcher\n🎓Neuroscience of Consciousness\n🎲Quantum Structure of Re…",
+          "twitter": null
+        },
+        {
+          "user_id": 32833,
+          "name": "Max Sky",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "lordmax",
+          "bio": "⚛ A former nuclear physicist from the former 𝕌𝕊𝕊ℝ. 📈 a16z ex investment partner,…",
+          "twitter": "_lordmax_"
+        },
+        {
+          "user_id": 1031066585,
+          "name": "Елизавета Кузнецова",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "eesmith",
+          "bio": "«Русский офис Клабхауса»\n\n\nЗнаю обо всём, что здесь происходит, и пишу об этом в…",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 2077872012,
+      "name": "🚀 SpaceX 🛰 Starlink L17 Launch Party",
+      "description": "Come join our social party to enjoy the launch together. SpaceX is targeting Thursday, March 4 for launch of 60 Starlink satellites from Launch Complex 39A at Kennedy Space Center at 3:24am, est.",
+      "time_start": "2021-03-04T08:00:00+00:00",
+      "club": {
+        "club_id": 1591,
+        "name": "Small Steps & Giant Leaps",
+        "description": "Your home for talks on human exploration of outer space",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 16858,
+        "num_followers": 26047,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [
+          {
+            "desc": "@StepsLeaps is our club Twitter. If you reference a paper, company, or law please send it to us on and we will post it for the rest of the club members to read and enjoy!",
+            "title": "Reference data, and send it to us!🔬"
+          },
+          {
+            "desc": "We discuss exciting topics, and it can be tempting to go on at length about something you are passionate about. That is great, but remember to invite others to speak after you’ve made your main point.",
+            "title": "Let others speak 🗣 "
+          },
+          {
+            "desc": "We are a diverse group of people passionate about helping humanity through space exploration. Our room moderators have a zero tolerance policy for insults, ad hominem attacks, or derogatory language.",
+            "title": "Be Respectful 😇🤝😇"
+          }
+        ],
+        "num_online": 0,
+        "is_admin": 0
+      },
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/xl4WEzoX",
+      "hosts": [
+        {
+          "user_id": 2205005,
+          "name": "Fred Radford",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "fredradford",
+          "bio": "🚀 Founder, Beyond Earth\nCo; New Space rocket company \n📅 Mon Mar 8 Space Law & Po…",
+          "twitter": "BeyondEarthCo"
+        },
+        {
+          "user_id": 2575720,
+          "name": "Robert Pimpsner",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "rpimpsner",
+          "bio": "Digital Marketer | Photographer | Mechanical Engineering Student | Former Minor …",
+          "twitter": "RPimpsner"
+        },
+        {
+          "user_id": 40987,
+          "name": "Alder Riley",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "alder",
+          "bio": "The Plan:\n1. Build factories the size of vending machines that can 3D print, CNC…",
+          "twitter": "alder_riley"
+        },
+        {
+          "user_id": 496052,
+          "name": "Mimi Houston",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "spacemeems",
+          "bio": "To space, for Earth.\n\nActivist, economist, and humanitarian.\n\n🚀 Director of Miss…",
+          "twitter": "SpaceMeems"
+        },
+        {
+          "user_id": 3637222,
+          "name": "Ill Ink",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ill_ink",
+          "bio": "📜🖋 Founder & Chief Illuminator at Illustrious Inklings\n📕 The Illuminated Tweets …",
+          "twitter": "_ill_ink"
+        }
+      ],
+      "channel": "MOABDYq0",
+      "is_expired": false,
+      "club_is_member": 0,
+      "club_is_follower": 0
+    },
+    {
+      "event_id": 102094719,
+      "name": "Что такое и зачем нужен инклюзивный театр",
+      "description": "Поговорим об особенном «инклюзивном» театре с представителями театральной сцены. Театр Простодушных с синдромом Дауна.",
+      "time_start": "2021-03-04T08:30:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/xeY6Xldx",
+      "hosts": [
+        {
+          "user_id": 1893107007,
+          "name": "Katya Kuznetsova",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "katyajoy",
+          "bio": "Digital Marketing Manager & Team Lead\nКто такой и зачем нужен\nNLO agency\nMoscow,…",
+          "twitter": null
+        },
+        {
+          "user_id": 1652974113,
+          "name": "Artem Remizov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "dirtyvegas",
+          "bio": "Кто такой и зачем нужен...?, алмаз во лбу Лил Узи Верта, у меня карт-бланш на шу…",
+          "twitter": null
+        },
+        {
+          "user_id": 1674155844,
+          "name": "Semyon Efimov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mlccrew",
+          "bio": "«Русский маркетинг» Telegram\n«Продажные блогеры» podcast\nEx SMM Grow Food",
+          "twitter": "smmfromrussia"
+        },
+        {
+          "user_id": 506289002,
+          "name": "Vladislav Kuzmenko",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kzmnkvl",
+          "bio": "Берём интервью у звёзд                  \n🌝 Веду утренние эфиры\n\n«Кто такой и з…",
+          "twitter": null
+        },
+        {
+          "user_id": 1294126867,
+          "name": "Алексей Ткачук",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "dnative",
+          "bio": "Создатель блога про SMM dnative.ru\nСооснователь платформы для подкастеров mave.d…",
+          "twitter": "Tkachuk_AS"
+        },
+        {
+          "user_id": 4931029,
+          "name": "Anatoly Kapustin",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "a_kapustin",
+          "bio": "Admin at: «Кто такой и зачем нужен ...»\n\nRussian meme cabbage guy\n\nmail: me@akap…",
+          "twitter": "A_Kapustin"
+        },
+        {
+          "user_id": 453706614,
+          "name": "Ksenia Dukalis",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kdukalis",
+          "bio": "Если я есть в беседе, значит она топ \nСамая популярная девушка русского кх\nRooms…",
+          "twitter": "KDukalis"
+        },
+        {
+          "user_id": 1511429944,
+          "name": "Bulat Lambaev",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "lambaev",
+          "bio": "Head of digital transformation @ Mgcom.\n\nHost DMC Talks podcast. Модератор - кто…",
+          "twitter": "lambaev"
+        },
+        {
+          "user_id": 1031066585,
+          "name": "Елизавета Кузнецова",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "eesmith",
+          "bio": "«Русский офис Клабхауса»\n\n\nЗнаю обо всём, что здесь происходит, и пишу об этом в…",
+          "twitter": null
+        },
+        {
+          "user_id": 966017807,
+          "name": "Dima Cherne",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "cherne",
+          "bio": "poet, actor etc.\n◽️ The Theater of the Open-Hearted (Театр Простодушных) inst: …",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 687850476,
+      "name": "SpaceX Starlink Launch Party",
+      "description": "Join us for a watch party as SpaceX sends satellites from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. Launch time is at at 5:42 a.m. EST",
+      "time_start": "2021-03-04T10:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/mZrgzoZe",
+      "hosts": [
+        {
+          "user_id": 496052,
+          "name": "Mimi Houston",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "spacemeems",
+          "bio": "To space, for Earth.\n\nActivist, economist, and humanitarian.\n\n🚀 Director of Miss…",
+          "twitter": "SpaceMeems"
+        },
+        {
+          "user_id": 40987,
+          "name": "Alder Riley",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "alder",
+          "bio": "The Plan:\n1. Build factories the size of vending machines that can 3D print, CNC…",
+          "twitter": "alder_riley"
+        },
+        {
+          "user_id": 2205005,
+          "name": "Fred Radford",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "fredradford",
+          "bio": "🚀 Founder, Beyond Earth\nCo; New Space rocket company \n📅 Mon Mar 8 Space Law & Po…",
+          "twitter": "BeyondEarthCo"
+        },
+        {
+          "user_id": 3637222,
+          "name": "Ill Ink",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ill_ink",
+          "bio": "📜🖋 Founder & Chief Illuminator at Illustrious Inklings\n📕 The Illuminated Tweets …",
+          "twitter": "_ill_ink"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 1284578466,
+      "name": "Career Coffee: Pros & Cons of Working Abroad",
+      "description": "We are hosting a 90 minute panel to discuss career stories and questions with guests from McKinsey, Goldman Sachs, VC and more! Share your experiences and ask your questions. ",
+      "time_start": "2021-03-04T10:30:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/xnK1YbWR",
+      "hosts": [
+        {
+          "user_id": 2789592,
+          "name": "Kevin Jon",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kevinjon",
+          "bio": "🦍Ex-Management Consultant now VC building scalable companies in China, Shanghai.…",
+          "twitter": "career_coffee"
+        },
+        {
+          "user_id": 2640705,
+          "name": "Heinrich Rusche",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "heinrichrusche",
+          "bio": "CTO at SØR | Ex-McKinsey | INSEAD MBA\n🎬 YouTube: “Firm Learning” (80k+ subs)\n🎓 L…",
+          "twitter": "firmlearning"
+        },
+        {
+          "user_id": 5800676,
+          "name": "Chugs Chugani",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "chugs1",
+          "bio": "🇨🇳 all things China,📍curr. in 北京 BJ\n- ⚡️prev @ goldman sachs 高盛\n- 🚀 3x founder (…",
+          "twitter": null
+        },
+        {
+          "user_id": 1821445,
+          "name": "Jennifer Cheng",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "jennifercheng",
+          "bio": "⭐️👩🏻 Investor for own Family Office 💫NewChicCapital.com — We focus on Impact | E…",
+          "twitter": "JennGlamCo"
+        },
+        {
+          "user_id": 156679,
+          "name": "Nikita Thakrar",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "nikitathakrar",
+          "bio": "🔥 *Venture capital & tech diversity*\n\n👩🏻\u200d💻 Co-Founder - Included VC: first of it…",
+          "twitter": "NikitaThakrar"
+        },
+        {
+          "user_id": 2421929,
+          "name": "Kal Patel",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kalpatel",
+          "bio": "Investor and Advisor\nPast: Partner@VantagePointCapital ($4bn Clean Tech fund inc…",
+          "twitter": "KalPatel"
+        },
+        {
+          "user_id": 5777930,
+          "name": "JSP",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "jsp.io",
+          "bio": "📱Product & Tech at Prosus Ventures (largest shareholder of Tencent 🇨🇳, investors…",
+          "twitter": null
+        },
+        {
+          "user_id": 4138121,
+          "name": "Srijani Chatterjee",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "srijani.c",
+          "bio": "Wealth & Investment Management Associate (FTSE 100).\n\nInvestment Funds, Financia…",
+          "twitter": "srijani_c"
+        },
+        {
+          "user_id": 3387725,
+          "name": "Afzal Hussein",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "afzal",
+          "bio": "🚀 Founder - Simpley.io\n🎥 YouTuber - 66k subscribers\n👨🏽\u200d💼 Previously - Goldman Sa…",
+          "twitter": "Afzal_Hussein_"
+        },
+        {
+          "user_id": 2751086,
+          "name": "Paul Ark",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "paulark",
+          "bio": "Venture capital, sustainability, impact, ESG, and startup ecosystem development.…",
+          "twitter": "Paul_Ark"
+        },
+        {
+          "user_id": 2374643,
+          "name": "Kam Taj",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kamtajcoaching",
+          "bio": "Peak-Performance | Resilience | Emotional Intelligence | Sustainable Motivation\n…",
+          "twitter": "kamtajcoaching"
+        },
+        {
+          "user_id": 254405882,
+          "name": "June Ng",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "june.cng",
+          "bio": "HK | Investment banking, I make jewelleries and paint part time \n\n☕️Career | Sta…",
+          "twitter": null
+        },
+        {
+          "user_id": 3200187,
+          "name": "Tomas Hulle",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "tomashulle",
+          "bio": "Proud Founder of European Centre for Career Education and Xflow, Entrepreneur, W…",
+          "twitter": "TomasHulle"
+        },
+        {
+          "user_id": 15359,
+          "name": "Roy Rao",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "heyroyz",
+          "bio": "tech bizOps | community | mindfulness | mental model | crossfit | 🇨🇳🇺🇸🇩🇪 | be ki…",
+          "twitter": "chinaspeedclub"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 1445601751,
+      "name": "Тренды NFT / DeFi от экспертов 😎 BitDoma",
+      "description": "👉DeFi / NFT что это? 👉Как на этом заработать инвестору? 👉Как создать свой NFT? 👉Какие платформы использовать? 👉Что делать если ты creator? Поднимайте  руку ✋ задавайте вопросы 🔥",
+      "time_start": "2021-03-04T11:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/MRGrpE23",
+      "hosts": [
+        {
+          "user_id": 6005126,
+          "name": "Kristina Berezina",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kristina_code",
+          "bio": "Co-founder toscale.io \nTerminal for algo trading\n\nCrypto community BitDoma\nTeleg…",
+          "twitter": "kristina_code"
+        },
+        {
+          "user_id": 1651308065,
+          "name": "Maxim Burkov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "nothing_2_loose",
+          "bio": "#Bitcoin \nCo-founder PRO BLOCKCHAIN Media\nВЕБИНАР по NFT - bit.ly/100NFT\n\nCo-fou…",
+          "twitter": "PRO_BLOCKCHAIN"
+        },
+        {
+          "user_id": 3193153,
+          "name": "Anton S.",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "sadko",
+          "bio": "IT entrepreneur •\nBlockchain enthusiast • Inventor. \nCommunity: https://t.me/bit…",
+          "twitter": null
+        },
+        {
+          "user_id": 1988353895,
+          "name": "Zodd Zverev",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "inzoddwetrust",
+          "bio": "1THASH\nhttps://m.btc.com/stats/pool/1THash\n\nDjarfmine Technologies\n\nGarantex – е…",
+          "twitter": null
+        },
+        {
+          "user_id": 1319442441,
+          "name": "Pavel Solodkov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "piratesofmining",
+          "bio": "✳️ Модератор/Эксперт- BitDoma\nFounder Re-monter.ru / Mining / Video Maker/ Микро…",
+          "twitter": null
+        },
+        {
+          "user_id": 941165806,
+          "name": "Pavel Levoslov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "levoslov",
+          "bio": "Socrates of the digital age\nmessenger • teacher • moderator\nmathematics | financ…",
+          "twitter": "levoslov"
+        },
+        {
+          "user_id": 1884368,
+          "name": "Sergei Sergienko",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "sergei000",
+          "bio": "Bitcoin and crypto. \n\nTrying to create a platform for people to earn crypto thro…",
+          "twitter": "svsergienko"
+        },
+        {
+          "user_id": 2142449075,
+          "name": "Viacheslav Nosko",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "noskov_crypto",
+          "bio": "PRO BLOCKCHAIN MEDIA \n(co-founder )\nВебинар NFT - bit.ly/100NFT \n\nNFT INDEX ( NF…",
+          "twitter": "PRO_BLOCKCHAIN"
+        },
+        {
+          "user_id": 1557223860,
+          "name": "Khalid Dianov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "dianov",
+          "bio": "Investment Banker (Ex Rothschild, UBS, Dresdner)\n\nStrategist and advisor to earl…",
+          "twitter": null
+        },
+        {
+          "user_id": 5963445,
+          "name": "Artur Lipatov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "silikonkrim",
+          "bio": "Bitcoin....\n\nLoading....\n\n✅crypto 👽 btc 🌍 NFT\n✅AdvCash.com 🙏\n✅adviser in pinksna…",
+          "twitter": null
+        },
+        {
+          "user_id": 1583555958,
+          "name": "Anton Gr",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "venticello",
+          "bio": "💼 Investor\n👓 Аnalyst\n👽 Blockchain evangelist ©2015\n\nTelegram: @bitdoma_chat",
+          "twitter": null
+        },
+        {
+          "user_id": 344989207,
+          "name": "Gee Turvinenko",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "cryptohippiegee",
+          "bio": "Hustler | NFT Magic Cards Creator | Blockchain Evangelist | DeFi addicted \n☎️ @e…",
+          "twitter": "ETurvinenko"
+        },
+        {
+          "user_id": 3504506,
+          "name": "Alexander Landa",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "landaquest",
+          "bio": "VR | www.akiva.ai\n🤖 | #AI  | www.akiva.ai| #Neurodivergent dad | #IamAki…",
+          "twitter": "alxlanda"
+        },
+        {
+          "user_id": 1172419388,
+          "name": "Mekhti Mekhtiev",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mockingbird12",
+          "bio": "Who am I?\n\nDay trader📈\nPrivate investor💰\nPrivate financial consulting 💎\nCrypto e…",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 1168426455,
+      "name": "แชร์ประสบการณ์สัมภาษณ์งานสุดพีค | Mission x ทะยาน [LIVE]",
+      "description": "คุยกัน Club! by Mission To The Moon [LIVE Q/A] \n.\nหัวข้อวันนี้ คุณเคยไหม? ไปสัมภาษณ์งานแล้วรู้สึกงงๆ ตกลง ฉันมาทำอะไรที่นี่!? มาแชร์บรรยากาศความพีคตอนไปสมัครงานกัน\n.\nคืนนี้ (4 MAR) เวลา 18:00–19:00 น.",
+      "time_start": "2021-03-04T11:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/PD4O7w56",
+      "hosts": [
+        {
+          "user_id": 1619206595,
+          "name": "Aum Supakorn",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "aumsupakorn",
+          "bio": "General Manager @Mission To The Moon \nManaging Director @Mission To Pluto\nHost @…",
+          "twitter": "AumSupakorn2"
+        },
+        {
+          "user_id": 791130915,
+          "name": "Mission To The Moon Media",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mttmclub",
+          "bio": "21st Century Skills for Future of Works Community by Mission To The Moon Media C…",
+          "twitter": "Mission2MoonTH"
+        },
+        {
+          "user_id": 1921888141,
+          "name": "Thomas Pitchyen",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "thomaspitchyen",
+          "bio": "📚ผู้เขียนหนังสือ ทะยาน : คิดแบบ STARTUP \nทำอย่าง SME  มีระบบแบบมหาชน\n\n💡Facebook …",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 393116292,
+      "name": "Комната эмоциональной поддержки",
+      "description": "Пространство, где можно замедлится, заметить свои эмоции, поделиться ими и получить поддержку.",
+      "time_start": "2021-03-04T11:00:00+00:00",
+      "club": {
+        "club_id": 786,
+        "name": "The Dacha",
+        "description": "The Dacha, or Дача, is the first club for Russian speakers on Clubhouse. \nWe host panels with entrepreneurs and artists from Russian speaking countries, as well as open discussions between professionals and expats from the former USSR.\n\nDachaClubhouse.com\n\nJoin us on Facebook:\nfacebook.com/groups/dachaclubhouse\n\nFollow the founders:\n@asya & @mattonsandhill\n\nПредложить мероприятие в рамках Дачи:\n🔗 DachaClubhouse.com/event-proposal",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 2482,
+        "num_followers": 99592,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [
+          {
+            "desc": "Most of us do, and tend to speak Russian in this club. But if you don’t, just let us know!\n",
+            "title": "Do you speak Russian?"
+          },
+          {
+            "desc": "The Dacha Club aims to bring people together and help members find common ground.  Politics tend to drive people apart. Therefore, we ask that you discuss politics outside of Dacha rooms.",
+            "title": "Please avoid controversial discussions."
+          },
+          {
+            "desc": "You can find our groups at DachaClubhouse.com and facebook.com/groups/dachaclubhouse.\n\nTo organize an event on Dacha, please submit your proposal on our site at least one week in advance.",
+            "title": "Do you have Telegram or FB?"
+          }
+        ],
+        "num_online": 0,
+        "is_admin": 0
+      },
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/M5RpBgLv",
+      "hosts": [
+        {
+          "user_id": 3007366,
+          "name": "Mykhaylo Salnykov",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "salnykov",
+          "bio": "🇸🇪🇺🇦🇨🇦 Data centred program manager. Analytical leader. Scuba diver. Outsourcing…",
+          "twitter": null
+        },
+        {
+          "user_id": 3306556,
+          "name": "Anastasiya Salnykova",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "salnykova",
+          "bio": "🌿 Gestalt counselor & doula with a PhD. Raised in Ukraine, educated in Canada, b…",
+          "twitter": null
+        },
+        {
+          "user_id": 29166,
+          "name": "Matt Lewis",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mattonsandhill",
+          "bio": "“To have a second language is to have a second soul.” I help manage these clubs:…",
+          "twitter": "mattonsandhill"
+        }
+      ],
+      "channel": null,
+      "is_expired": false,
+      "club_is_member": 0,
+      "club_is_follower": 0
+    },
+    {
+      "event_id": 405328098,
+      "name": "Influence Kitchen☕️ Marketing Lunch",
+      "description": "",
+      "time_start": "2021-03-04T12:00:00+00:00",
+      "club": {
+        "club_id": 786,
+        "name": "The Dacha",
+        "description": "The Dacha, or Дача, is the first club for Russian speakers on Clubhouse. \nWe host panels with entrepreneurs and artists from Russian speaking countries, as well as open discussions between professionals and expats from the former USSR.DachaClubhouse.com\n\nJoin us on Facebook:\nfacebook.com/groups/dachaclubhouse\n\nFollow the founders:\n@asya & @mattonsandhill\n\nПредложить мероприятие в рамках Дачи:\n🔗 DachaClubhouse.com/event-proposal",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 2482,
+        "num_followers": 99592,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [
+          {
+            "desc": "Most of us do, and tend to speak Russian in this club. But if you don’t, just let us know!\n",
+            "title": "Do you speak Russian?"
+          },
+          {
+            "desc": "The Dacha Club aims to bring people together and help members find common ground.  Politics tend to drive people apart. Therefore, we ask that you discuss politics outside of Dacha rooms.",
+            "title": "Please avoid controversial discussions."
+          },
+          {
+            "desc": "You can find our groups at DachaClubhouse.com and facebook.com/groups/dachaclubhouse.\n\nTo organize an event on Dacha, please submit your proposal on our site at least one week in advance.",
+            "title": "Do you have Telegram or FB?"
+          }
+        ],
+        "num_online": 0,
+        "is_admin": 0
+      },
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/Mwk3WwAY",
+      "hosts": [
+        {
+          "user_id": 1848737,
+          "name": "Inga Lamouroux",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "marketinga",
+          "bio": "International marketing and business development expert \n\n✳️ Moderator of ",
+          "twitter": null
+        },
+        {
+          "user_id": 29166,
+          "name": "Matt Lewis",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mattonsandhill",
+          "bio": "“To have a second language is to have a second soul.” I help manage these clubs:…",
+          "twitter": "mattonsandhill"
+        },
+        {
+          "user_id": 1213716143,
+          "name": "Dusya Bubel",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "dusyabubel",
+          "bio": "CEO Bubel MGT \nInfluencer marketing\n\nbubelmgt.ru",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false,
+      "club_is_member": 0,
+      "club_is_follower": 0
+    },
+    {
+      "event_id": 1438784191,
+      "name": "Beynim Göçtü de Mutlu mu? Ne Umdum, Ne Buldum?",
+      "description": "",
+      "time_start": "2021-03-04T12:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/mW1pGg3p",
+      "hosts": [
+        {
+          "user_id": 4040559,
+          "name": "Kerem Dündar",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "drkeremdundar",
+          "bio": "İşi, Gücü BeyinSinirbilim, Felsefe, Sosyoloji, Davranış Bilimleri, Endüstr…",
+          "twitter": "DrKeremDundar"
+        },
+        {
+          "user_id": 4140900,
+          "name": "Elif Dr. Cindik",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "drelifcindik",
+          "bio": "Psychiatrist, psychotherapist, head of 2 neuro-psychiatry health care centers …",
+          "twitter": "DrElifCindik"
+        },
+        {
+          "user_id": 2765834,
+          "name": "Olcayto Cengiz",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "olcayto",
+          "bio": "👨\u200d👦 Dad\n👨🏻\u200d💻 Experience Designer & Digital Transformation Manager\n👾 Gamification…",
+          "twitter": "OlcaytoCengiz"
+        },
+        {
+          "user_id": 1061454509,
+          "name": "Inci Tebis Picard",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "incitebis",
+          "bio": "Clinical Psychologist | Uzman Psikolog\n📍Paris 🇫🇷 \n🛋 Centre d’Excellence Para & M…",
+          "twitter": null
+        },
+        {
+          "user_id": 5958030,
+          "name": "Fejir Ugurlu",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "fejirugurlu",
+          "bio": "▪️Lawyer in New York & Turkey \n▪️Professional Chess Player \n▪️Wall Street Woman\n…",
+          "twitter": "FejirUgurlu"
+        },
+        {
+          "user_id": 1562594767,
+          "name": "Murat Efe",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "murat_efe",
+          "bio": "Event Manager 👔 Photographer 📸  Traveller 🌍 \nTurkish Arab Economic Forum(TAF) Fo…",
+          "twitter": "Murat_Efe_IE"
+        },
+        {
+          "user_id": 5950542,
+          "name": "Dr Behice Ece Ilhan",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "eceilhan",
+          "bio": "📍Chicago, IL\nStrategist. Scholar. Sherpa. Storyteller.\nSenior Trend Strategist &…",
+          "twitter": "eceilhan"
+        },
+        {
+          "user_id": 4607440,
+          "name": "Ismail Ozdemir",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ismailozdemir",
+          "bio": "Strategic Planner, Digital Marketer and Consultant, Digital Enterpreneur\nBilkent…",
+          "twitter": "ismailozdemir"
+        },
+        {
+          "user_id": 3741296,
+          "name": "Umut Yildiz",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "umutayildiz",
+          "bio": "Dr. #Astrophysicist @NASA/JPL-Caltech\nYouTube #TekCareUzay\n• #ScienceCommunicati…",
+          "twitter": "umutayildiz"
+        },
+        {
+          "user_id": 4554611,
+          "name": "Buse Karahan",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "busee",
+          "bio": "Marketing & PR @UPS  📦✈️\n\nIstanbul Bilgi University \nUniversity of California Lo…",
+          "twitter": null
+        },
+        {
+          "user_id": 600660,
+          "name": "Aykut Karaalioglu",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "aykut",
+          "bio": "📈Founder MobileAction.co Trusted by 300k+ Apps\n✅Founder SearchAds.com-#1 Apple S…",
+          "twitter": "aykutws"
+        },
+        {
+          "user_id": 1926825047,
+          "name": "Dr.Neslihan Özman",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "algo_logic",
+          "bio": "Microalgae speacialist, Marine biologist, environmental biotechnologist, sustain…",
+          "twitter": null
+        },
+        {
+          "user_id": 3575420,
+          "name": "Şafak Salda",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "safaksalda",
+          "bio": "safaksalda.com",
+          "twitter": "shafaksalda"
+        },
+        {
+          "user_id": 3345470,
+          "name": "tutku yildirim",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "tutku",
+          "bio": "Clubhouse / Day N Night Show “ co-founder” dikkatinizi çekerim tırnak içinde “ C…",
+          "twitter": "tutkuyildirim"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 513700960,
+      "name": "紫禁城六百年生日悄悄過｜聊聊两岸故宫",
+      "description": "聊聊故宫历史、文物、两岸故宫，中西方艺术对比，欢迎大家来听来聊～",
+      "time_start": "2021-03-04T13:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/mJDWwAGk",
+      "hosts": [
+        {
+          "user_id": 20704331,
+          "name": "Helena lu",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "helenanananana",
+          "bio": "资深拖稿译者，作者，欧盟某缺钱项目资浅研究员，联合国苦力[climate, carbon, development, sustainability]|微博@He…",
+          "twitter": null
+        },
+        {
+          "user_id": 1743981317,
+          "name": "A.J Chao",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ajchao",
+          "bio": "我在故宮講故事\n我用故事話故宮\n\n一個專注於兩岸故宮的說書人\n用有趣的故事與跨博物館的連結\n讓您進入中華文化的博大精深中\n藝術沒那麼難，文物很貼近\n\n✈️✈️✈…",
+          "twitter": null
+        },
+        {
+          "user_id": 402539911,
+          "name": "Inner Peace",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "innerpeaceornot",
+          "bio": "A nice guy loving the art of story telling\n\n-躺平不谈工作的休假状态中（每天偷偷更新bio）\n\n-不定期host\n“…",
+          "twitter": null
+        },
+        {
+          "user_id": 4122977,
+          "name": "Doriscafe",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "doriscafe",
+          "bio": "Product Manager@Grab | 🎙️《8點早班車》| 每週一 recap ch townhall產品更新討論 | 📍CN > HK > Singa…",
+          "twitter": "Doriscafe"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 2065988220,
+      "name": "📢【商周這期在幹嘛】有人賺到環遊世界，有人去睡公園！👉今晚來聽年輕世代聊數位黃金，如何打造全新的虛擬華爾街？（錄音🎙）",
+      "description": "🔥商周1738期《數位黃金比特幣》\n1️⃣從賠光身家到環遊世界！32歲的他為何因蒙古行啟蒙出普惠金融夢？\n2️⃣人人都能當銀行？十分鐘貸款利率400%也有人要借，大學生都在瘋的DeFi是什麼？\n3️⃣比特幣還會漲嗎？女股神說它取代債券？到底比特幣有沒有基本面？\n4️⃣一張數位圖片檔賣超過八千萬！NFT是什麼？為何NBA也在瘋？\n\n｜來賓｜\n區塊鏈大學聯盟副理事長／杜若宇\n區塊鏈大學聯盟理事長／彭少甫\n區塊鏈大學聯盟理事／謝銘峰\n區塊鏈資工美少女／李婷婷\n臺北科技大學互動設計系專任助理教授／寶博士葛如鈞\n財經Ｍ平方研究員／Marc\n\n｜主持｜\n商周主筆馬自明、記者陳慶徽",
+      "time_start": "2021-03-04T13:30:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/M1Lk7483",
+      "hosts": [
+        {
+          "user_id": 36702533,
+          "name": "商業 周刊",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "bw.com",
+          "bio": "👂商周ClubHouse最新開房訊息，請追蹤本帳號\n\n🔥商周1737期《一顆晶片為何讓全世界瘋狂》\n\n📲下載APP「商周Plus」，多元內容e手讀\n👍追蹤「商周…",
+          "twitter": null
+        },
+        {
+          "user_id": 4616937,
+          "name": "Laura Kang",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "laurakang",
+          "bio": "商業周刊製作人👩🏻\u200d💻🐰🐰\nBusinessWeekly Producer\n走在找尋有趣故事和散步的路上",
+          "twitter": null
+        },
+        {
+          "user_id": 4459820,
+          "name": "Anita Tsai",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "caballetsai",
+          "bio": "蔡靚萱｜商業周刊主筆記者\n關注科技、生醫、金融以及各種新商業模式\nBusiness Weekly reporter｜Taiwan\n\n❤️AI, semicond…",
+          "twitter": "caballetsai"
+        },
+        {
+          "user_id": 4444955,
+          "name": "Simon Ma",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "simeonma",
+          "bio": "商業周刊主筆",
+          "twitter": "Simon42409485"
+        },
+        {
+          "user_id": 4404829,
+          "name": "Victor Chen",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "victorchen02",
+          "bio": "Reporter @ Business Weekly Taiwan",
+          "twitter": "Victorchen02"
+        },
+        {
+          "user_id": 4473086,
+          "name": "Evelyn Lin",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "iamee.tw",
+          "bio": "林易萱\n\n《商業周刊》主編，現管理網站內容\n\nManaging Editor of Taiwan《Business Weekly》\n\n➡ https://www…",
+          "twitter": "evelyn116"
+        },
+        {
+          "user_id": 3453060,
+          "name": "寶博士",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "daaab",
+          "bio": "🎧 千萬粉絲 Podcast《寶博朋友說》科技類 Top#1\n🎓 Ph. D in Computer Science @ NTU / SU / KEIO\n📺 Y…",
+          "twitter": "dAAAb"
+        },
+        {
+          "user_id": 5345724,
+          "name": "李婷婷",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "tinaaaaalee",
+          "bio": "👾 VR/3C 開箱 YouTuber VRemix_x 資工少女李婷婷\n📝 全球前20大中文Medium作家 - 4.8K subscribers\n💯 銷量最…",
+          "twitter": "tinaaaaalee"
+        },
+        {
+          "user_id": 5509413,
+          "name": "彭少甫",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "nacnalu",
+          "bio": "Analyst｜Explorer｜Crypto HODLer 👊\n# 台灣區塊鏈大學聯盟（TBA）理事長\n# 台大金融科技暨監理科技社群創辦人\n🔥十年內要蓋一間…",
+          "twitter": null
+        },
+        {
+          "user_id": 4076668,
+          "name": "Jo-Yu Duh",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "renoduh",
+          "bio": "Jo-Yu 若宇｜DeFi & 區塊鏈 Researcher @台大電機｜Blockchain｜政大區塊鏈研究社創辦成員｜環遊世界背包客 50+ 國｜前特戰軍官…",
+          "twitter": "royu_do_tatw"
+        },
+        {
+          "user_id": 5327741,
+          "name": "Sean Sie",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "seansie07",
+          "bio": "Crypto Long | NTU CSIE | PhD Candidate \nTaiwan Blockchain Academia 理事 \nNGO Co-Fo…",
+          "twitter": "SieMingFong"
+        },
+        {
+          "user_id": 1283520251,
+          "name": "Marc Xie",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "marc4867",
+          "bio": "Macromicro｜財經M平方研究員",
+          "twitter": null
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 911843720,
+      "name": "🇹🇭 Liverpool: หงษ์แดงคุยก่อนเกมเจอเชลซีคืนนี้",
+      "description": "ขอเชิญเด็กหงษ์ทุกหมู่เหล่า มาคุยเสวนากันก่อนเกม คืนนี้ Liverpool เปิดบ้านต้อนรับ Chelsea มาลุ้นกันต่อครับ กับเกมในบ้านที่สำคัญมาก ในกลุ่ม Top 6 เราก็เหลือเกมในมือกับ Top 6 ด้วยกันไม่มากแล้ว เกมนี้ก็สำคัญมากที่จะต้องตัดแต้มเชลซีด้วย เพื่อแย่งโควต้า UCL 😆",
+      "time_start": "2021-03-04T14:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/M1WkL51y",
+      "hosts": [
+        {
+          "user_id": 1317978560,
+          "name": "Peerapol Chatanantavej",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "peter2514",
+          "bio": "Nickname “Peter Guang” telecom professional, more than 26 years experience with …",
+          "twitter": "peter2514"
+        },
+        {
+          "user_id": 591656643,
+          "name": "Mild Pichayanin",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mildpichayanin",
+          "bio": "🔻FB : มายด์เปี๊ยกบางใหญ่ - MildPiakbangyai\n🔻รองแชมป์แฟนพันธุ์แท้ลิเวอร์พูล 2015 …",
+          "twitter": "PichayaninMild"
+        },
+        {
+          "user_id": 125963844,
+          "name": "Nina Panyayong",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ninanaka",
+          "bio": "Sportscaster in Thailand 🇹🇭\n❤️ Liverpool FC \nMother of 2 👦🏻👧🏻\nCo-Founder Happy M…",
+          "twitter": "ninanaka"
+        },
+        {
+          "user_id": 1363495367,
+          "name": "MENG เหม็ง",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "mengclubhouse",
+          "bio": "👋 CEO of KT Venture Capital, KTB\n🖥 Former MD of dtac Accelerate, DTAC\n🎧 I’m an E…",
+          "twitter": "SmaRtleTW"
+        },
+        {
+          "user_id": 1057688826,
+          "name": "Ball Settawat",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "ballsettawat",
+          "bio": "Creator : ลิเวอร์พูล ไทยแลนด์ แฟนคลับ",
+          "twitter": "gemble400"
+        },
+        {
+          "user_id": 1824731633,
+          "name": "Sarif Sainui",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "sarifsainui",
+          "bio": "Work at @true_bangkok_united\nEPL Commentator\nOwner @villathalanena_official\nPres…",
+          "twitter": "SARIFS"
+        },
+        {
+          "user_id": 559348149,
+          "name": "Jeer D. Herriot",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "jeerard",
+          "bio": "Editor - The Official Liverpool FC Website in Thailand 🇹🇭🔴\nViews my own.",
+          "twitter": "jeerard"
+        },
+        {
+          "user_id": 992154615,
+          "name": "Kittikorn Udompol",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kob_kittikorn",
+          "bio": "Sport Commentator, Script Writer, Event Organizer.But love to be the Liverpool F…",
+          "twitter": "kob_kittikorn"
+        },
+        {
+          "user_id": 1736964505,
+          "name": "Warodom Panjamawatana",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "tonwarodom",
+          "bio": "ต้น วโรดม \nแฟนพันธุ์แท้ลิเวอร์พูล ปี 2015\nFounder of #ต้นทางฟุตบอล \nOSK 121",
+          "twitter": "ton_warodom"
+        },
+        {
+          "user_id": 340632702,
+          "name": "Candid Kibt",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "candidkibt",
+          "bio": "Pianist|| Piano Teacher|| Tv host|| MC|| Influencer|| Liverpool ||\nBA:Arts CU ||…",
+          "twitter": "CanDid_KiBt"
+        },
+        {
+          "user_id": 1706887772,
+          "name": "Akirakorn I-kitisiri",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "bedroom30",
+          "bio": "Tech First Adopter\nMusic Lover\nVocalist\nWatch Collectors\nSeries & Movies Lover\nP…",
+          "twitter": null
+        },
+        {
+          "user_id": 1793387517,
+          "name": "Shark Shows",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "sharkshows",
+          "bio": "พี่หลาม จิ้กโก๋ไอที ,Techoffside ,ล้ำหน้าโชว์ ,Blogger ,Youtuber , tech news web…",
+          "twitter": "sharkshows"
+        },
+        {
+          "user_id": 23476478,
+          "name": "Akadej Udomchaiporn",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "akadej",
+          "bio": "Director of KMITL Digital Analytics and Intelligence Center ...\n\nBSc Computer Sc…",
+          "twitter": "akadej"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    },
+    {
+      "event_id": 984367866,
+      "name": "🏈🏈🏈 Поговорим про NFL 🏈🏈🏈",
+      "description": "",
+      "time_start": "2021-03-04T15:00:00+00:00",
+      "club": null,
+      "is_member_only": false,
+      "url": "https://www.joinclubhouse.com/event/xn5zd10z",
+      "hosts": [
+        {
+          "user_id": 1518326903,
+          "name": "Kirill Golovko",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "kislik34",
+          "bio": "Russian @ 🇩🇪Frankfurt\n\n⚽️🏒Spartak 🏈Steelers ⚽️Eintracht\n\n15 years in Financial …",
+          "twitter": "kislik34"
+        },
+        {
+          "user_id": 35496044,
+          "name": "Tash Sarkisyan",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "username": "tashevich",
+          "bio": "Add a bio",
+          "twitter": "Tashevich"
+        }
+      ],
+      "channel": null,
+      "is_expired": false
+    }
+  ],
+  "count": 80,
+  "next": null,
+  "previous": null,
+  "success": true
+}

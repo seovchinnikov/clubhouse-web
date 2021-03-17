@@ -1,0 +1,27 @@
+target/
+
+# UI
+.DS_Store
+node_modules/
+**/ui/dist/
+.env.local
+.env.*.local
+npm-debug.log*
+
+
+# Editor directories and files
+## Eclipse
+.settings/
+*.checkstyle
+*.classpath
+*.project
+*.fbExcludeFilterFile
+.factorypath
+**/.sts4-cache/
+
+## IDEA
+.idea
+*.iml
+
+## VSCode
+.vscode

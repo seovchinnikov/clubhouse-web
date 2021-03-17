@@ -1,0 +1,729 @@
+{
+  "users": [
+    {
+      "user_id": 89889,
+      "name": "Andrew Weiss",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "andweiss327",
+      "bio": "Creative + Social Strategist\n\nCurrent: Some Good News With John Krasinski, Apple…",
+      "twitter": "andweiss327"
+    },
+    {
+      "user_id": 270,
+      "name": "Niv Dror",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "niv",
+      "bio": " ¯\\_(ツ)_/¯",
+      "twitter": "Nivo0o0"
+    },
+    {
+      "user_id": 1478,
+      "name": "Evan Tana",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "evantana",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 4777169,
+      "name": "Darren Lewis",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "darrenlewis",
+      "bio": "New York. SF. Seoul. Tokyo. AI/Space. Systems and data at Mercari. English/한국어",
+      "twitter": null
+    },
+    {
+      "user_id": 2348418,
+      "name": "Howie Mandel",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "howiemandel",
+      "bio": null,
+      "twitter": "howiemandel"
+    },
+    {
+      "user_id": 5042740,
+      "name": "Jeff Weiner",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "jeffweiner",
+      "bio": "Next Play Ventures, LinkedIn, Concrete Rose, The Compassion Project",
+      "twitter": "jeffweiner"
+    },
+    {
+      "user_id": 1288298625,
+      "name": "Owen Boochever",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "owenbee",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 12696,
+      "name": "Jamie Hamilton",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "jamiehamilton",
+      "bio": "Stanford ‘23/4 - Golfer - Aspiring Chef",
+      "twitter": null
+    },
+    {
+      "user_id": 5482517,
+      "name": "Sonam Kapoor Ahuja",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "sonamkapoor",
+      "bio": "Actor",
+      "twitter": "sonamakapoor"
+    },
+    {
+      "user_id": 628524922,
+      "name": "Paul Buchheit",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "paultoo",
+      "bio": null,
+      "twitter": "paultoo"
+    },
+    {
+      "user_id": 1977,
+      "name": "Marvin Ammori",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "marvin",
+      "bio": "Co-Host Wednesday Clubhouse Political show 5p PT/8p ET. Co-Lead Politics Club. O…",
+      "twitter": "ammori"
+    },
+    {
+      "user_id": 3393031,
+      "name": "Raymond Tonsing",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "tonsing",
+      "bio": null,
+      "twitter": "tonsing"
+    },
+    {
+      "user_id": 959,
+      "name": "Suzy Ryoo",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "suzywillow",
+      "bio": "🙆🏻Cofounder & President at music & technology company, Q&A. I’m passionate a…",
+      "twitter": "suzywillow"
+    },
+    {
+      "user_id": 6202,
+      "name": "jw",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "joshwilliams",
+      "bio": " co-creator @gowalla // 🌱 partner @form_cap // 🎒 digital collector // ",
+      "twitter": "jw"
+    },
+    {
+      "user_id": 201100,
+      "name": "Moriah",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "mlaidlaw",
+      "bio": "Previously CX @Opendoor\nSoCal Native \n📍ATX\nReal Estate 🏡 \nUX Research 👩\u200d💻",
+      "twitter": null
+    },
+    {
+      "user_id": 3978421,
+      "name": "Art Krieg",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "artkrieg",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 2009,
+      "name": "E40",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "e40",
+      "bio": "E40 Hip-Hop Mogul ",
+      "twitter": "E40"
+    },
+    {
+      "user_id": 2003110644,
+      "name": "dug alan",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "frouglas",
+      "bio": "just a weird cat dude",
+      "twitter": null
+    },
+    {
+      "user_id": 432076,
+      "name": "Andrew Yang",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "andrewyang",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 3778,
+      "name": "Alice Johnson",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "alicejohnson",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 23227,
+      "name": "Max Weinberg",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "maxweinberg",
+      "bio": "Interscope Records",
+      "twitter": null
+    },
+    {
+      "user_id": 1598,
+      "name": "Margit Wennmachers",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "margit",
+      "bio": "Host of 4B w/ Margit: Mktg stories unfiltered (Wednesdays @ 4 pm PT)\nhttps://www…",
+      "twitter": "wennmachers"
+    },
+    {
+      "user_id": 2662549,
+      "name": "Alexander Morgan",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "genomicsdoc",
+      "bio": "Partner at Khosla Ventures investing in biotech, healthcare, AI/ML, and creativi…",
+      "twitter": "genomicsdoc"
+    },
+    {
+      "user_id": 1045,
+      "name": "Ben Thompson",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "benthompson",
+      "bio": "Stratechery",
+      "twitter": "benthompson"
+    },
+    {
+      "user_id": 2349783,
+      "name": "Ashna van Zuiden",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "ashnarvz",
+      "bio": "",
+      "twitter": null
+    },
+    {
+      "user_id": 1376849429,
+      "name": "Jude Komuves",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "thatjudegirl",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 3397,
+      "name": "Jack Conte",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "jackconte",
+      "bio": "Cofounder and CEO at Patreon. Half of Pomplamoose and Scary Pockets. ",
+      "twitter": "jackconte"
+    },
+    {
+      "user_id": 7359,
+      "name": "Justin Murphy",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "jmrphy",
+      "bio": "Political scientist.",
+      "twitter": "jmrphy"
+    },
+    {
+      "user_id": 1217035,
+      "name": "Shane Walker",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "shane112",
+      "bio": null,
+      "twitter": "shane_112"
+    },
+    {
+      "user_id": 12362,
+      "name": "Mike Graglia",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "graglia",
+      "bio": "Syngap.fund/Mike",
+      "twitter": "jmgraglia"
+    },
+    {
+      "user_id": 55524,
+      "name": "shaliek jenkins",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "shaliek",
+      "bio": "comedian, ugly, dusty, producer, crip, isola man media 🏄🏾\u200d♀️ etc. lead @ Hatewor…",
+      "twitter": "hateshaliek"
+    },
+    {
+      "user_id": 12371,
+      "name": "Justin West",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "justinwest",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 118793,
+      "name": "Craig Kerstiens",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "craigkerstiens",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 227,
+      "name": "Kevin Rose",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "kevin",
+      "bio": "Hello! My name is Kevin.",
+      "twitter": "kevinrose"
+    },
+    {
+      "user_id": 791,
+      "name": "Ben Satterfield",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "scootdown",
+      "bio": "I enjoy creating and helping others create.                                     …",
+      "twitter": "scootdown"
+    },
+    {
+      "user_id": 214405622,
+      "name": "Sarah Rizk",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "sarahrizk",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 3143,
+      "name": "David Greenstein",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "davidgreenstein",
+      "bio": "Co-Founder @ StreamReport (YCombinator W’21)                                    …",
+      "twitter": "dgreenstein1"
+    },
+    {
+      "user_id": 11235,
+      "name": "Alex Heath",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "alexheath",
+      "bio": "reporter at The Information\n\ncovering social media / future platforms (AR/VR)",
+      "twitter": "alexeheath"
+    },
+    {
+      "user_id": 31154,
+      "name": "Aaron Weinberg, MD",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "aaronsweinberg",
+      "bio": "Director of Program Development for Carbon Health. Triple boarded in Pulmonary, …",
+      "twitter": null
+    },
+    {
+      "user_id": 57110,
+      "name": "Seth Rogen",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "sethrogen",
+      "bio": "I am Seth Rogen.",
+      "twitter": null
+    },
+    {
+      "user_id": 137820,
+      "name": "Mike Porath",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "mikeporath",
+      "bio": "Founder/CEO of The Mighty, world’s leading health community. Rare disease advoca…",
+      "twitter": "mikeporath"
+    },
+    {
+      "user_id": 74123,
+      "name": "Mike Hirshland",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "vcmike",
+      "bio": null,
+      "twitter": "VCMike"
+    },
+    {
+      "user_id": 1129114979,
+      "name": "Pam Harder",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "pamharder",
+      "bio": null,
+      "twitter": null
+    },
+    {
+      "user_id": 2769,
+      "name": "Steven Sinofsky",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "stevesi",
+      "bio": "FOLLOW ME 🙏 \nadvisor and investor. \nboard partner @a16z. \nwas at Microsoft back …",
+      "twitter": "stevesi"
+    },
+    {
+      "user_id": 876,
+      "name": "Reid Hoffman",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "quixotic",
+      "bio": "Curious. Sometimes confused. Always hopeful. ",
+      "twitter": ""
+    },
+    {
+      "user_id": 1297538075,
+      "name": "Dave Cole",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "daves98",
+      "bio": null,
+      "twitter": "daves98"
+    },
+    {
+      "user_id": 3341551,
+      "name": "Counting Crows",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "countingcrows",
+      "bio": "Songwriter, bandleader, film buff, pirate, host of the Underwater Sunshine Podca…",
+      "twitter": "CountingCrows"
+    },
+    {
+      "user_id": 11039,
+      "name": "Chris Nguyen",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "csnguyen",
+      "bio": null,
+      "twitter": "csnguyen"
+    },
+    {
+      "user_id": 2992205,
+      "name": "Langhorne Slim",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "langhorneslim",
+      "bio": "some folks won’t believe in u. some folks will. either way, ya gotta believe in …",
+      "twitter": null
+    },
+    {
+      "user_id": 1551663,
+      "name": "BJ Fogg",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "bjfogg",
+      "bio": "I’m here to help you create good habits. \nBehavior scientist at Stanford. \nAutho…",
+      "twitter": "bjfogg"
+    }
+  ],
+  "clubs": [
+    {
+      "club_id": 7,
+      "name": "Lunar Society",
+      "description": "Where are we, and what are we building?",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 107,
+      "num_followers": 14220,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/lunarsociety",
+      "num_online": 0
+    },
+    {
+      "club_id": 6,
+      "name": "MSB",
+      "description": "MSB is an inclusive group of folks who assemble frequently to discuss little things.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 60,
+      "num_followers": 2564,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": true,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/msb",
+      "num_online": 0
+    },
+    {
+      "club_id": 36,
+      "name": "The Dose",
+      "description": "",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 29,
+      "num_followers": 6310,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/thedose",
+      "num_online": 0
+    },
+    {
+      "club_id": 47,
+      "name": "PressClub",
+      "description": "Journalists, ex-journalists, and guest experts discuss the most compelling stories in tech and culture. Weekly show Thursdays at 6 PM PT.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 1,
+      "num_followers": 21589,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/pressclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 213,
+      "name": "Build with Breakthrough Science",
+      "description": "We investigate areas of scientific breakthroughs prime for commercialization. We learn from leading PhDs and professors in the field to get an understanding of where the field was 3 years ago and what fundamental discoveries have been made to cause a step change in this field",
+      "photo_url": null,
+      "num_members": 267,
+      "num_followers": 2886,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "Speak without jargon and talk from fundamental principles so everyone can understand scientific concepts ",
+          "title": "Speak like Richard Feynman"
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/breakthroughscience",
+      "num_online": 0
+    },
+    {
+      "club_id": 288,
+      "name": "NSClub",
+      "description": "A space for apple platform developers (iOS, iPadOS, macOS...) to hangout and remind each other: whenever in doubt try translatesAutoresizingMaskIntoConstraints = false.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 386,
+      "num_followers": 2897,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": true,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/nsclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 23,
+      "name": "Future of Work Club",
+      "description": "Join us to talk about the Future of Work, collaboration, communication, and other topics.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 64,
+      "num_followers": 10042,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": true,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/futureofworkclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 425,
+      "name": "Designers Club",
+      "description": "We are designers and design leaders who discuss:\n• Design leadership • Building design teams • Inclusion & diversity • Getting hired • Career growth • Cross-functional collaboration • Business skills • Storytelling • Strategy • Influence • Inspiration\n\nWe are across design (and CX):\n• UX, UI, visual • Content strategy • User research • Design Ops • Industrial • Architecture • Interior • Graphic • Service • Animation • Motion Graphics • Videography • Photography • Fashion\n\nFollow our host, Marissa Louie @malouie.\n\n🗓  UPCOMING EVENTS  🗓\n• Pantone 2021 colors: Ultimate Gray 🔗 + Illuminating Yellow 🌝 (Fri 3/12 3p PST)\n• Foundational user research: what it is and how to conduct it (TBD)\n• How to level up as a design director (TBD)\n• Inclusion and diversity in design (TBD)\n\n💡  YOUR IDEAS  💡\nAsk a question or pitch an event idea: DM @malouie on Twitter.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 12068,
+      "num_followers": 63926,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "Don’t cut others off. Don’t blatantly self-promote. Admins may move anyone on stage down to the audience for any reason.",
+          "title": "Don’t cut others off, self-promo, or take up too much space."
+        },
+        {
+          "desc": "We have a high bar for quality conversations. If you have a room idea, DM Marissa Louie (@malouie) on Twitter. If you want to co-host a room, we ask that you first speak in our rooms and add value.",
+          "title": "Topic ideas and co-hosting"
+        },
+        {
+          "desc": "Those who are *not* designers: we ask that you don’t join the stage. The stage is for designers (which includes designers of any kind including content strategists, user researchers, architects).",
+          "title": "Designers on stage only"
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/designersclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 308,
+      "name": "Impact Investment Club",
+      "description": "Welcome to the IIC\r\n\r\nA space to share ideas, explore better ways to allocate capital in all its forms, accelerate ESG investing and sustainability, and create solutions together\r\n\rwww.impactinvestment.club\n\nHappy Women’s History Month!\nWe are proudly pro-womxn and a female-founded club ✨\n\nPast sessions include:\n\n• Investing in Oceans with Dr. Sylvia Earle of Mission Blue, Jeremy McKane of Ultramarine \n\n• Criminal Justice Reform with Jason Flom, poet Amir Sulaiman, Eliza Orlins and Aida Murad\n\n• Future of Food series on Cellular Agriculture and Plant-Based Innovation with Bruce Friedrich of The Good Food Institute, Jenny Stojkavic of VWA, Dan Altschuler Malek of New Crop Capital, 50 Years Ventures, Sustainable Foods Ventures, Geltor, Miyoko Skinner\n\n• Investing in Mental Health with Aida Murad, Adam Sud\n\n• Impact in Art with Ian Davis, Apexer, Zeehan Wazed\r\n\r\nPlease check the community rules and join us! \r\n\r\n• • •\r\n\r\n🐙 IIC Team Mascot: The octopus featured in My Octopus Teacher on Netflix\r\n\r\n✨ IIC Artist/Storyteller-in-Residence: Von Wong\n\n🌏 Climate: Chris Mangieri \n\n🌱 Ag: Caio Malufe\n\nIf you’d like to share ideas, propose a talk, or even lead a working group, please get in touch!",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 8125,
+      "num_followers": 32237,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "We base every conversation on a foundation of mutual respect, kindness and honesty. ",
+          "title": "How we show up "
+        },
+        {
+          "desc": "Our conversations will include world leaders in the impact investment space. We really value their time and energy, within this we want to ensure that they are not solicited for personal need.",
+          "title": "How we give space "
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/impactinvestmentclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 434,
+      "name": "Film Club",
+      "description": "Founded by Justine Bateman. For filmmakers and film fans discussing great filmmaking. Classic films, avant garde films, recent standouts.\nWeekly film assignments every MONDAY at 4pm PST. \n\nWatch Watch Alexander Mackendrick’s SWEET SMELL OF SUCCESS for FILM CLUB FORUM Mon 3/15.\n\nFilms so far:\nIVAN’S CHILDHOOD\nTHE LOST ROOM (limited series)\nTHE CONVERSATION\nREVANCHE\n8 1/2\nPERSONA\nDOPE\nELEVATOR TO THE GALLOWS\nTHE KILLING\nDAYS OF HEAVEN\nLA CIÉNAGA\nTHE LAST BLACK MAN IN SAN FRANCISCO\nCITIZEN KANE\nTHE RIDER\nL’AVVENTURA\nAPOCALYPSE NOW\nHEARTS OF DARKNESS\nTHE COLOR OF POMEGRANATES\nMANDY\nDR. STRANGELOVE\nA GHOST STORY",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 1395,
+      "num_followers": 43495,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "If not, please listen from the audience and join us on-stage next time.",
+          "title": "If you’ve seen this week’s film, come up on stage."
+        },
+        {
+          "desc": "Honestly share how you felt about the film. YOU WILL BE MOVED TO THE AUDIENCE if you interrupt people and/or go on and on with some speech. Be forewarned. ",
+          "title": "BE GENUINE (no one wants to hear a speech)"
+        },
+        {
+          "desc": "Whether you’re a filmmaker or just a film fan, we want to hear what stood out to you. There are no wrong answers.",
+          "title": "There are no wrong impressions of a film."
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/filmclub",
+      "num_online": 0
+    },
+    {
+      "club_id": 1591,
+      "name": "Small Steps & Giant Leaps",
+      "description": "Your",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 18519,
+      "num_followers": 27546,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "@StepsLeaps is our club Twitter. If you reference a paper, company, or law please send it to us on and we will post it for the rest of the club members to read and enjoy!",
+          "title": "Reference data, and send it to us!🔬"
+        },
+        {
+          "desc": "We discuss exciting topics, and it can be tempting to go on at length about something you are passionate about. That is great, but remember to invite others to speak after you’ve made your main point.",
+          "title": "Let others speak 🗣 "
+        },
+        {
+          "desc": "We are a diverse group of people passionate about helping humanity through space exploration. Our room moderators have a zero tolerance policy for insults, ad hominem attacks, or derogatory language.",
+          "title": "Be Respectful 😇🤝😇"
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/smallstepsgiantleaps",
+      "num_online": 0
+    },
+    {
+      "club_id": 5243,
+      "name": "a16z Bio",
+      "description": "Conversations with bold entrepreneurs and builders who are engineering biology and reimagining healthcare.  Brought to you by a16z.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 520,
+      "num_followers": 11194,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/a16zbio",
+      "num_online": 0
+    },
+    {
+      "club_id": 5255,
+      "name": "I AM WOW $",
+      "description": "International Association of Members Who Only Win Money💰. Members put WOW$FAM in your bio. #WOWFAM.",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 6,
+      "num_followers": 5736,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": true,
+      "rules": [
+        {
+          "desc": "Even when we are wrong",
+          "title": "Judges are always right"
+        },
+        {
+          "desc": "And your Cashtag. Put WOW$FAM in your bio. Tweet with #WOWFAM.",
+          "title": "Social media rules "
+        },
+        {
+          "desc": "We sold out immediately. ",
+          "title": "Sponsored by Cash App"
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/iamwow",
+      "num_online": 0
+    },
+    {
+      "club_id": 5237,
+      "name": "Good Time",
+      "description": "Daily light-hearted wrap up of whats happening in tech and culture",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 9,
+      "num_followers": 144214,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": true,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/goodtime",
+      "num_online": 0
+    },
+    {
+      "club_id": 384,
+      "name": "Roomtone",
+      "description": "People dont listen to what you say as much as how you say it. A great dinner party leaves your soul full, not just your belly. \n\nRoomtone is a feast of textures and tones that help put the lyrics of life in context.\n\nJoin hosts Wayne and Shell Thursday nights, 7:30pm PT/10:30pm ET, for curated sets of live music, poetry, comedy and assorted other stuff LIVE from their living room. 90mins. Music Mode in effect. 🎧\n\nRoomtone.co/clubhouse for more information. 🙈",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 278,
+      "num_followers": 2716,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [
+        {
+          "desc": "Roomtone events are essentially dinner parties built around special guests, usually musical. Everybody “on stage” is actually in our house. If welcome you inside, don’t make a mess and be cooooool. 🙏🏼",
+          "title": "Shoes at the door, please. 👟 "
+        },
+        {
+          "desc": "Mute yourself when they’re performing. Show them love by clicking your mic on and off. And tipping! Venmo @roomtone, all funds shared 100% w artists. Or go direct to their profiles if you prefer. ",
+          "title": "Respect the performers 🎵 🎸 "
+        },
+        {
+          "desc": "Our motto... It’s not what you say but how you say it. Keep your tone in check. Have fun! Make mistakes! Pretend you don’t know! We will get into topics connected to the art so please share thoughts!",
+          "title": "How you say it 😏"
+        }
+      ],
+      "url": "https://www.joinclubhouse.com/club/roomtone",
+      "num_online": 0
+    },
+    {
+      "club_id": 1460782059,
+      "name": "Boss Talk",
+      "description": "This is the club where we talk about how to manage and lead organizations",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "num_members": 4,
+      "num_followers": 10675,
+      "enable_private": true,
+      "is_follow_allowed": true,
+      "is_membership_private": false,
+      "is_community": false,
+      "rules": [],
+      "url": "https://www.joinclubhouse.com/club/thebosstalk",
+      "num_online": 0
+    }
+  ],
+  "count": 399,
+  "next": 2,
+  "previous": null,
+  "success": true
+}

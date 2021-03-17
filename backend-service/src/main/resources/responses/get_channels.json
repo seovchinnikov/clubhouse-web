@@ -1,0 +1,112 @@
+{
+  "channels": [
+    {
+      "creator_user_profile_id": 1155969076,
+      "channel_id": 13460491,
+      "channel": "mWL2QdEP",
+      "topic": "현생 살고싶은 토요일 밤🌙아무나",
+      "is_private": false,
+      "is_social_mode": false,
+      "url": "https://www.joinclubhouse.com/room/mWL2QdEP",
+      "feature_flags": [
+        "AGORA_AUDIO_PROFILE_SPEECH_STANDARD"
+      ],
+      "club": null,
+      "club_name": null,
+      "club_id": null,
+      "welcome_for_user_profile": null,
+      "num_other": 0,
+      "has_blocked_speakers": false,
+      "is_explore_channel": false,
+      "num_speakers": 5,
+      "num_all": 67,
+      "users": [
+        {
+          "user_id": 2081027619,
+          "name": "suyoung Bin",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-27T09:01:05.683701+00:00",
+          "is_followed_by_speaker": true,
+          "is_invited_as_speaker": false
+        },
+        {
+          "user_id": 287595763,
+          "name": "hyeon sung",
+          "photo_url": "https://illumesense.com/resources/illumesense/style/img/website/profile-picture-blanks/female-profile.jpg",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-27T09:17:17.023026+00:00",
+          "is_followed_by_speaker": true,
+          "is_invited_as_speaker": true
+        },
+        {
+          "user_id": 2127512279,
+          "name": "Jung DDAENG",
+          "photo_url": "https://cdn.dribbble.com/users/31752/screenshots/1013305/2013-04-alien-tech-v2.png?compress=1&resize=400x300",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-27T09:29:02.504931+00:00",
+          "is_followed_by_speaker": false,
+          "is_invited_as_speaker": true
+        }
+      ]
+    },
+    {
+      "creator_user_profile_id": 1731929013,
+      "channel_id": 27980296,
+      "channel": "1234567",
+      "topic": "인생이야기/ Sharing life stories",
+      "is_private": false,
+      "is_social_mode": false,
+      "url": "https://www.joinclubhouse.com/room/m2K88BqP",
+      "feature_flags": [
+        "AGORA_AUDIO_PROFILE_SPEECH_STANDARD"
+      ],
+      "club": null,
+      "club_name": null,
+      "club_id": null,
+      "welcome_for_user_profile": null,
+      "num_other": 0,
+      "has_blocked_speakers": false,
+      "is_explore_channel": false,
+      "num_speakers": 14,
+      "num_all": 44,
+      "users": [
+        {
+          "user_id": 1731929013,
+          "name": "Karen Lee",
+          "photo_url": "https://illumesense.com/resources/illumesense/style/img/website/profile-picture-blanks/female-profile.jpg",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-28T06:33:57.806756+00:00",
+          "is_followed_by_speaker": true,
+          "is_invited_as_speaker": false
+        },
+        {
+          "user_id": 912348855,
+          "name": "kylah lee",
+          "photo_url": "https://illumesense.com/resources/illumesense/style/img/website/profile-picture-blanks/female-profile.jpg",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-28T06:34:16.001963+00:00",
+          "is_followed_by_speaker": true,
+          "is_invited_as_speaker": false
+        },
+        {
+          "user_id": 1618055163,
+          "name": "Andrea Reading",
+          "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+          "is_speaker": true,
+          "is_moderator": true,
+          "time_joined_as_speaker": "2021-02-28T06:35:09.593859+00:00",
+          "is_followed_by_speaker": true,
+          "is_invited_as_speaker": true
+        }
+      ]
+    }
+  ],
+  "events": [],
+  "success": true
+}
