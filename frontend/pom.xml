@@ -1,0 +1,134 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.clubhouseapi</groupId>
+    <artifactId>frontend</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Clubhouse frontend</name>
+
+
+    <properties>
+        <snapshot.timestamp>${maven.build.timestamp}</snapshot.timestamp>
+        <maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+
+        <ui.install.args>--prefer-offline</ui.install.args>
+        <static.content.relative>static/</static.content.relative>
+        <static.content.path>${project.build.directory}/${static.content.relative}
+        </static.content.path>
+        <template.path>${project.build.directory}/templates</template.path>
+        <ui.build.args>--dest ./target/${static.content.relative} --no-clean</ui.build.args>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+<!--                    <execution>-->
+<!--                        <id>install-npm-dependencies</id>-->
+<!--                        <phase>compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>exec</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <executable>npm</executable>-->
+<!--                            <commandlineArgs>install ${ui.install.args}</commandlineArgs>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+                    <!--                    <execution>-->
+                    <!--                        <id>generate-dts</id>-->
+                    <!--                        <phase>prepare-package</phase>-->
+                    <!--                        <goals>-->
+                    <!--                            <goal>exec</goal>-->
+                    <!--                        </goals>-->
+                    <!--                        <configuration>-->
+                    <!--                            <executable>npm</executable>-->
+                    <!--                            <commandlineArgs>run model-classes</commandlineArgs>-->
+                    <!--                        </configuration>-->
+                    <!--                    </execution>-->
+                    <!--                    <execution>-->
+                    <!--                        <id>fix-resources-encoding</id>-->
+                    <!--                        <phase>prepare-package</phase>-->
+                    <!--                        <goals>-->
+                    <!--                            <goal>exec</goal>-->
+                    <!--                        </goals>-->
+                    <!--                        <configuration>-->
+                    <!--                            <executable>npm</executable>-->
+                    <!--                            <commandlineArgs>run fix-resources</commandlineArgs>-->
+                    <!--                        </configuration>-->
+                    <!--                    </execution>-->
+                    <execution>
+                        <id>build-js</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>npx</executable>
+                            <commandlineArgs>vue-cli-service build ${ui.build.args}</commandlineArgs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-resources-plugin</artifactId>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <id>copy-index-template</id>-->
+            <!--                        <phase>prepare-package</phase>-->
+            <!--                        <goals>-->
+            <!--                            <goal>copy-resources</goal>-->
+            <!--                        </goals>-->
+
+            <!--                        <configuration>-->
+            <!--                            <outputDirectory>${template.path}</outputDirectory>-->
+            <!--                            <resources>-->
+            <!--                                <resource>-->
+            <!--                                    <directory>${static.content.path}</directory>-->
+            <!--                                    <includes>-->
+            <!--                                        <include>index.html</include>-->
+            <!--                                    </includes>-->
+            <!--                                </resource>-->
+            <!--                            </resources>-->
+            <!--                        </configuration>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <executions>
+                    <execution>
+                        <id>make-resources</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>assembly/assembly-resources.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+
+</project>

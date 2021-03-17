@@ -1,0 +1,14 @@
+clubhouse:
+  API_URL: "http://localhost:2002"
+  PUBNUB_PUB_KEY: "your_pubnub_pub_key"
+  PUBNUB_SUB_KEY: "your_pubnub_sub_key"
+  AGORA_KEY: "your_agora_sub_key"
+  LOCAL_WS_AGORA_URL: "ws://localhost:8765/"
+app:
+  mock_enable: true
+  mock_cookie: d7949e3801f62c89d21196ed4d076990958db24bfa6
+  mock_port: 2002
+
+jwt:
+  expirationDateInMs: 360000
+  refreshExpirationDateInMs: 360000

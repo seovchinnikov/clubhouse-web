@@ -1,0 +1,29 @@
+{
+  "has_unread_notifications": true,
+  "actionable_notifications_count": 0,
+  "num_invites": 2,
+  "auth_token": "token",
+  "refresh_token": "refreshtoken",
+  "access_token": "token",
+  "notifications_enabled": true,
+  "user_profile": {
+    "user_id": 999,
+    "name": "Serhio",
+    "photo_url": "https://mybluerobot.com/wp-content/uploads/2015/04/myAvatar-29-150x150@2x.png",
+    "username": "serhio"
+  },
+  "following_ids": [
+    173148772,
+    386801638,
+    426202863,
+    10937091753,
+    1921254361
+  ],
+  "blocked_ids": [],
+  "is_admin": false,
+  "email": null,
+  "feature_flags": [
+    ""
+  ],
+  "success": true
+}

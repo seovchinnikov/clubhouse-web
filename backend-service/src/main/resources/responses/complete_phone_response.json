@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "is_verified": true,
+  "user_profile": {
+    "user_id": 999,
+    "name": "Serg.",
+    "photo_url": null,
+    "username": "johnnyboy"
+  },
+  "auth_token": "7b11922920432da76728b216e202cecf7ade31a2",
+  "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGccmVzaCIsImV4cCI6MzMxNTE0MTMxNDksImp0aL1wH5-Ru41k",
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhb90eXBlITE0ZiIsInUnOo-90vvvUiE8",
+  "is_waitlisted": false,
+  "is_onboarding": false
+}

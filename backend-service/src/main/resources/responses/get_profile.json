@@ -1,0 +1,124 @@
+{
+  "user_profile": {
+    "user_id": 2081027619,
+    "name": "suyoung Bin",
+    "displayname": null,
+    "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+    "username": "suuuu_0",
+    "bio": "classic  some long long long long long description description long long long long long description description",
+    "twitter": "twitter",
+    "instagram": "instagram",
+    "num_followers": 135,
+    "num_following": 12,
+    "time_created": "2021-02-24T16:53:55.323608+00:00",
+    "follows_me": false,
+    "is_blocked_by_network": false,
+    "mutual_follows_count": 0,
+    "mutual_follows": [],
+    "notification_type": null,
+    "clubs": [
+      {
+        "club_id": 1616712800,
+        "name": "НЕЙРОНАУКИ И СОЗНАНИЕ",
+        "description": "Добро пожаловать в клуб\nлюбопытных и ищущих\n\n\nВот с чем мы будем здесь разбираться: \n\n0Что же такое и как устроен наш мозг?\nКак наши психика и мышление зависят от того, что происходит у нас в организме?\n💡Как глубока кроличья нора феномена сознания и что вообще это такое?\n🎓Чем нам могут быть полезны в нашей повседневной жизни все эти знания, даруемые нам современными нейронауками?\n\nВ рамках клуба буду проводиться\nмаксимально полезные комнаты на эти темы \nс самыми интересными спикерами.\n\nПрисоединяйтесь",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 4,
+        "num_followers": 1395,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [],
+        "num_online": 0
+      },
+      {
+        "club_id": 1839327486,
+        "name": "VIRTUALITY WONDERLAND",
+        "description": "Knock, knock, Neo. Follow the white rabbit.\nI show you how deep the rabbit hole goes.\n\nКлуб для тех, кому интересны:\n\n✔️Гипотеза симуляции \n✔️Квантовая физика\n✔️Теория струн\n✔️Пространство-время\n✔️Черные дыры\n✔️Голографическая вселенная\n✔️Трансгуманизм\n✔️Виртуальная реальность\n✔️ ...\n\nЗдесь будет происходить нечто прекрасное\nили невероятные приключения\nнаблюдателя в наблюдаемом ⚛️\n\nПодписывайтесь и оставайтесь \nна нашей ClubHouse волне✌🏻",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 3,
+        "num_followers": 134,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [],
+        "num_online": 0
+      },
+      {
+        "club_id": 431574079,
+        "name": "PonchikNews",
+        "description": "PonchikNews official",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 13,
+        "num_followers": 155,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": true,
+        "rules": [
+          {
+            "desc": "Без этого никуда. Оскорбления, расизм, сексизм и т.п. не приемлются",
+            "title": "🙏 Уважение и спокойствие"
+          },
+          {
+            "desc": "Все мнения велкам, но это не значит, что все остаются на сцене",
+            "title": "🤗 Конфиденциальность и плюрализм"
+          },
+          {
+            "desc": "Жить играючи, как завещал Ницше",
+            "title": "🤞 Слабоумие и отвага"
+          }
+        ],
+        "num_online": 0
+      },
+      {
+        "club_id": 1687874367,
+        "name": "Factory",
+        "description": "Барышников, Мур, Осовцов est. march, 2021",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 71,
+        "num_followers": 145,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": false,
+        "rules": [],
+        "num_online": 0
+      },
+      {
+        "club_id": 1876229481,
+        "name": "Science from Russia",
+        "description": "Популярно о науке на русском \n\nДобро пожаловать в клуб о науке, технологиях и образовании. Мы объединяем ученых, научных популяризаторов и всех тех, кто сохранил любопытство к окружающему миру. Не бойтесь задавать глупые вопросы, не бойтесь отвечать.В нашем клубе царит дружественная и вежливая атмосфера. Мы слушаем и уважаем мнения друг друга.\n\nПриглашайте в клуб ваших коллег-ученых и друзей, интересующихся наукой.",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "num_members": 95,
+        "num_followers": 1239,
+        "enable_private": true,
+        "is_follow_allowed": true,
+        "is_membership_private": false,
+        "is_community": true,
+        "rules": [
+          {
+            "desc": "Не теряйте любопытства и не считайте ваши вопросы глупыми!",
+            "title": "Правило #1"
+          },
+          {
+            "desc": "Придерживайтесь научного скептицизма и критического мышления. Не полагайтесь на авторитет.",
+            "title": "Правило #2"
+          },
+          {
+            "desc": "Не отрицайте научные консенсусы, мы не научный журнал и не можем изменить научный мейнстрим. Вы можете обсуждать не мейнстримные идеи, но не выдавайте их за результаты научного консенсусов.",
+            "title": "Правило #3"
+          }
+        ]
+      }
+    ],
+    "invited_by_user_profile": {
+      "user_id": 346257251,
+      "name": "Hyungeun Park",
+      "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+      "username": "aurorapark"
+    }
+  },
+  "success": true
+}

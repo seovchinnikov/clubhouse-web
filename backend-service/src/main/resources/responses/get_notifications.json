@@ -1,0 +1,76 @@
+{
+  "notifications": [
+    {
+      "notification_id": 5454,
+      "type": 1,
+      "time_created": "2021-02-04T09:00:01.966803+00:00",
+      "is_unread": false,
+      "user_profile": {
+        "user_id": 896122110,
+        "name": "Pavel DSDSD",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "username": "fdfdfdsf"
+      },
+      "message": "followed you"
+    },
+    {
+      "notification_id": 8295090,
+      "type": 16,
+      "time_created": "2021-02-01T00:27:49.181614+00:00",
+      "is_unread": false,
+      "user_profile": {
+        "user_id": 19442161,
+        "name": "Ilya Varlamov",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "username": "ivarlamov"
+      },
+      "event_id": 10370216,
+      "message": "scheduled Дневной Варламов: продажа NFT, DeFi и все ещё крипта for Tuesday, March 2 at 8:00pm"
+    },
+    {
+      "notification_id": 7212611,
+      "type": 14,
+      "time_created": "2021-02-21T18:10:11.023370+00:00",
+      "is_unread": false,
+      "user_profile": {
+        "user_id": 1021,
+        "name": "Clubhouse",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "username": "clubhouse"
+      },
+      "message": "says  Welcome to Clubhouse! Were so excited to have you be part of the community! You have 12 invites to bring great people on board."
+    },
+    {
+      "notification_id": 7242614,
+      "type": 5,
+      "time_created": "2021-01-27T18:10:16.120159+00:00",
+      "is_unread": false,
+      "user_profile": {
+        "user_id": 1028,
+        "name": "Clubhouse",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "username": "clubhouse"
+      },
+      "message": "says Feel free to explore the hallways, start a room, or tap here to dig into the New User Guide.",
+      "url": "https://welcome.joinclubhouse.com"
+    },
+    {
+      "notification_id": 727212107,
+      "type": 21,
+      "time_created": "2021-01-17T18:10:16.016163+00:00",
+      "is_unread": false,
+      "user_profile": {
+        "user_id": 10218,
+        "name": "Clubhouse",
+        "photo_url": "https://img.pngio.com/profile-vector-png-vector-psd-and-clipart-with-transparent-user-profile-png-640_640.png",
+        "username": "clubhouse"
+      },
+      "message": "says For those moments when youd rather read than listen, follow @joinclubhouse on Twitter!"
+    }
+  ],
+  "disabled": false,
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "success": true
+}
