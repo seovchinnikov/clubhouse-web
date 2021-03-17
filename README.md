@@ -4,7 +4,7 @@ This is the web client app to make your Club House experience better no matter w
 Sometimes it's better to listen podcasts on your PC. But CH team does not give such opportunity for now so I decided to help
  someone who want to use it besides mobile phones.
  
-It's for personal use only. I respect the job CH devs made so please you this app only as an addition to mobile version.
+It's for personal use only. I respect the job CH devs made so please use this app only as an addition to mobile version.
 
 ## Supported platforms (including speaking)
 Windows, macOS, linux
