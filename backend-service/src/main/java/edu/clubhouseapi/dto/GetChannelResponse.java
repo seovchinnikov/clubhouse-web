@@ -89,6 +89,9 @@ public class GetChannelResponse {
         @JsonProperty("is_speaking")
         private Boolean isSpeaking = false;
 
+        @JsonProperty("raise_hands")
+        private Boolean raiseHands = false;
+
         @JsonProperty("is_moderator")
         private Boolean isModerator;
 

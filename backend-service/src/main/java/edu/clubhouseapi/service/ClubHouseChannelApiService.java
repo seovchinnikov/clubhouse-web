@@ -94,6 +94,7 @@ public class ClubHouseChannelApiService {
                     }
                     for (final JoinChannelResponse.JoinChannelResponseUser user : joinChannelResponse.getUsers()) {
                         user.setPhotoUrl(clubHouseStaticFilesService.encodeUrl(user.getPhotoUrl()));
+                        user.setRaiseHands(false);
 
                     }
                     return joinChannelResponse;
@@ -116,7 +117,7 @@ public class ClubHouseChannelApiService {
                     }
                     for (final GetChannelResponse.GetChannelResponseUser user : getChannelResponse.getUsers()) {
                         user.setPhotoUrl(clubHouseStaticFilesService.encodeUrl(user.getPhotoUrl()));
-
+                        user.setRaiseHands(false);
                     }
 
                     return getChannelResponse;
