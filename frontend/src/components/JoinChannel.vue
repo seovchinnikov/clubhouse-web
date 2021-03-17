@@ -200,7 +200,7 @@
                 }
                 return leaveChannelData;
             }).then(value => {
-                return new Promise(resolve => setTimeout(() => resolve(value), 2500));
+                return new Promise(resolve => setTimeout(() => resolve(value), 1500));
             }).then(response => ChannelsService.joinChannel(this.channelName)).then(data => {
                 this.joinChannel = data;
                 this.getChannel = data;
@@ -481,17 +481,22 @@
         }
 
         protected onMakeModerator(channel: string, userId: string, moderator: boolean) {
-
             if (String(userId) === String(this.currentUser.user_id)) {
-                this.isModerator = moderator;
+                // update state
+                this.rejoinChannel().then(value => {
+                }).catch(reason => {
+                    console.error("error on onMakeModerator " + reason);
+                });
+            } else {
+                const idx = this.allUsers.findIndex(value => String(value.user_id) === String(userId));
+                if (idx >= 0) {
+                    const found = this.allUsers[idx];
+                    found.is_moderator = moderator;
+                    if (moderator) {
+                        found.is_speaker = true;
+                    }
+                }
             }
-
-            const idx = this.allUsers.findIndex(value => String(value.user_id) === String(userId));
-            if (idx >= 0) {
-                const found = this.allUsers[idx];
-                found.is_moderator = moderator;
-            }
-
 
         }
 
