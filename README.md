@@ -32,6 +32,15 @@ That's why I don't implement registration finishing step in the app.
 * Channels recommended list
 * Events recommended list
 
+## To be done features  (PRs are welcome)
+
+* User profile info updating (bio, avatar, instagram/twitter profiles)
+* Room creation
+* Topics exploration
+* Pinging inside room
+* Clubs subscription
+* Inviting to CH
+
 ## How to install and use
 There are 2 parts - first is backend for webapp installable via docker, and the second one is the local audio client (if you want to join channels) installed via normal setup.
 
