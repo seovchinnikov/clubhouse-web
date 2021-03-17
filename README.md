@@ -154,3 +154,9 @@ PRs are welcome.
 * https://github.com/Seia-Soto/clubhouse-api (NodeJS build)
 * https://github.com/grishka/Houseclub (Android build)
 * https://theori.io/research/korean/analyzing-clubhouse/ (Written in Korean)
+
+## Thanks to
+* @alievmirza
+* @stypr
+* @Seia-Soto
+* @grishka
