@@ -5,6 +5,8 @@ This is the web client app to make your Club House experience better no matter w
 It's for personal use only. I respect the job CH devs made so please use this app only as an addition to mobile version.
 Also please note that there are not zero chances to be banned for using it (but if you'll register from iOS device it reduces the chances in multiple times).
 
+Also please note that you can be logged in only from one device at the same time (the previous one will be logged out).
+
 ## Supported platforms (including speaking)
 Windows, macOS, linux
 
