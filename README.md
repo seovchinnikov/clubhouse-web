@@ -51,10 +51,10 @@ There are 2 parts - first is backend for webapp installable via docker, and the 
 
 Create container inside docker (if you run it for the first time):
 
-```docker run --restart=always --name clubhouse -p 8080:8080 -d seovchinnikov/clubhouse-web:latest ```
+```docker run --restart=unless-stopped --name clubhouse -p 8080:8080 -d seovchinnikov/clubhouse-web:latest ```
 
 And open http://localhost:8080/ in you browser. That's it (go to step 2)!
-Flag -d runs container in the background, so you can close terminal after all. Flag --restart=always restarts container after reboot of your PC. 
+Flag -d runs container in the background, so you can close terminal after all. Flag --restart=unless-stopped restarts container after reboot of your PC (until you don't stop it manually). 
 
 When you no longer needs the app - stop it:
 
