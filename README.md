@@ -165,6 +165,12 @@ PRs are welcome.
 
 ## Thanks to
 * @alievmirza
+* @valeyko
 * @stypr
 * @Seia-Soto
 * @grishka
+
+
+## Contacts
+
+seanovchinnikov@gmail.com
