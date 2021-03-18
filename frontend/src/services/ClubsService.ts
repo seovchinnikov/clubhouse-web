@@ -1,7 +1,8 @@
 import axios from 'axios';
 import {GetClub} from "@/model/GetClub";
+import {AppSettings} from "@/services/AppSettings";
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = AppSettings.API_ENDPOINT;
 
 class ClubsService {
     getClub(club_id: number) {

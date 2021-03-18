@@ -6,8 +6,9 @@ import {EmptyResponse} from "@/model/EmptyResponse";
 import {PingChannel} from "@/model/PingChannel";
 import {SuggestedFollows} from "@/model/SuggestedFollows";
 import {GetEvents} from "@/model/GetEvents";
+import {AppSettings} from "@/services/AppSettings";
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = AppSettings.API_ENDPOINT;
 
 class ChannelsService {
     getChannels() {
