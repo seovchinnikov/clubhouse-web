@@ -86,7 +86,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
         <lombok.version>1.18.18</lombok.version>
-        <docker.repo></docker.repo>
+        <docker.repo>seovchinnikov/</docker.repo>
 
         <app.name>app.jar</app.name>
         <assembly.path>${project.build.directory}/app</assembly.path>

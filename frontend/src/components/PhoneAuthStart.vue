@@ -9,7 +9,7 @@
             <ValidationObserver ref="observer" v-slot="{ invalid }">
                 <form name="form" @submit.prevent="handleSubmit">
                     <div v-if="step === 'START'" class="form-group">
-                        <ValidationProvider name="phone" rules="required|max:12|min:5" v-slot="{ errors }">
+                        <ValidationProvider name="phone" rules="required|max:17|min:4" v-slot="{ errors }">
                             <label for="phone">Phone</label>
                             <input
                                     v-model="user.phone"
