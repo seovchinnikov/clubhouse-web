@@ -12,3 +12,6 @@ app:
 jwt:
   expirationDateInMs: 360000
   refreshExpirationDateInMs: 360000
+
+server:
+  port: ${PORT:8081}

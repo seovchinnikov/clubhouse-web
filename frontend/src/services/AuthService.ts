@@ -1,7 +1,8 @@
 import axios from 'axios';
 import {UserData} from "@/model/UserData";
+import {AppSettings} from "@/services/AppSettings";
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = AppSettings.API_ENDPOINT;
 
 class AuthService {
     phoneAuthStart(phone_number: string) {

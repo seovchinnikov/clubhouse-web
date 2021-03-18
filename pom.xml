@@ -8,6 +8,27 @@
     <packaging>pom</packaging>
     <name>Clubhouse app</name>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <env>dev</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <env>default</env>
+            </properties>
+        </profile>
+    </profiles>
+
     <modules>
         <module>frontend</module>
         <module>backend-service</module>

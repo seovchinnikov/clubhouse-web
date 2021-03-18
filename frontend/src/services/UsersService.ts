@@ -4,11 +4,11 @@ import {SuggestedFollows} from "@/model/SuggestedFollows";
 import {MeUserProfileResponse} from "@/model/MeResponse";
 import {EmptyResponse} from "@/model/EmptyResponse";
 import {Followers} from "@/model/Followers";
-import {Following} from "@/model/Following";
 import {UserSearch} from "@/model/UserSearch";
 import {Notifications} from "@/model/Notifications";
+import {AppSettings} from "@/services/AppSettings";
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = AppSettings.API_ENDPOINT;
 
 class UsersService {
     getUser(userId: string) {
