@@ -69,8 +69,10 @@ If you want to join to channels and use audio features, you also need to setup a
 
 There are binaries for Windows, MacOS; Linux is supported via wine (please look at ```agora-bridge/electron/prebuilds/linux_support.md```).
 
-Just run the executables!
+Just run the executables (dmg in case of macOS or exe inside zip build for windows)!
 Note that audio client has to be run before you join the channel or you'll get error on joining.
+
+When you'll finish your room participation and don't need audio speaking/listening anymore you can close audio client but don't forget to open it before you join the room again. 
 
 --------------------------
 
