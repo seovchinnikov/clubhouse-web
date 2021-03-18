@@ -49,13 +49,22 @@ There are 2 parts - first is backend for webapp installable via docker, and the 
 
 [Install docker](https://docs.docker.com/get-docker/) if not installed (windows, macOS, linux setup).
 
-Run inside docker:
+Create container inside docker (if you run it for the first time):
 
-```docker run  -p 8080:8080 seovchinnikov/clubhouse-web:latest```
+```docker run --restart=always --name clubhouse -p 8080:8080 -d seovchinnikov/clubhouse-web:latest ```
 
 And open http://localhost:8080/ in you browser. That's it (go to step 2)!
+Flag -d runs container in the background, so you can close terminal after all. Flag --restart=always restarts container after reboot of your PC. 
 
-Or (alternatively) you can download java 11, install it, open terminal/console and type:
+When you no longer needs the app - stop it:
+
+```docker stop clubhouse```
+
+And next time you want to resume it:
+
+```docker start clubhouse```
+
+Or (**alternatively**) you can download java 11, install it, open terminal/console and type:
 
 ```java -jar app.jar```
 
