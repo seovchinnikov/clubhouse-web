@@ -51,7 +51,7 @@ public class ClubHouseAuthApiService {
     JwtServerUtil jwtServerUtil;
 
     public Mono<StartPhoneNumberAuthResponse>
-            startPhoneNumberAuth(StartPhoneNumberAuthRequest startPhoneNumberAuthRequest) {
+    startPhoneNumberAuth(StartPhoneNumberAuthRequest startPhoneNumberAuthRequest) {
         String url = clubHouseConfigProperties.getApiUrl() + "/start_phone_number_auth";
         String cookie = "__cfduid=" + byteUtils.randomCookieId();
         return clubHouseWebClientBuilder.build()
@@ -71,7 +71,7 @@ public class ClubHouseAuthApiService {
     }
 
     public Mono<FinishPhoneNumberAuthResponse>
-            finishPhoneNumberAuth(FinishPhoneNumberAuthRequest finishPhoneNumberAuthRequest) {
+    finishPhoneNumberAuth(FinishPhoneNumberAuthRequest finishPhoneNumberAuthRequest) {
         String url = clubHouseConfigProperties.getApiUrl() + "/complete_phone_number_auth";
         String cookie = finishPhoneNumberAuthRequest.getCookie();
         finishPhoneNumberAuthRequest.setCookie(null);
@@ -91,6 +91,22 @@ public class ClubHouseAuthApiService {
                 })
                 .switchIfEmpty(Mono.defer(() -> Mono
                         .just(FinishPhoneNumberAuthResponse.builder().success(false).errorMessage("Empty").build())));
+    }
+
+    public Mono<CheckWaitlistedBoardedResponse> checkWaitlistedAfterFinishPhoneAuth(
+            String deviceId, String cookie, String authToken, String userId) {
+        String url = clubHouseConfigProperties.getApiUrl() + "/check_waitlist_status";
+        return clubHouseWebClientBuilder.build()
+                .post()
+                .uri(url)
+                // todo generalize
+                .header("Cookie", cookie)
+                .header("CH-UserID", userId)
+                .header("CH-DeviceId", deviceId)
+                .header("Authorization", "Token " + authToken)
+                .retrieve()
+                .bodyToMono(CheckWaitlistedBoardedResponse.class);
+
     }
 
     public Mono<CheckWaitlistedBoardedResponse> checkWaitlistedAndBoarded() {
