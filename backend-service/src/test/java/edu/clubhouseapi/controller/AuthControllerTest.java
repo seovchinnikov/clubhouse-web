@@ -134,19 +134,7 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
-        List<Header> LoggedInheaders = getBasicHeaders();
-        LoggedInheaders.add(new Header("Cookie", cookie));
-        LoggedInheaders.add(new Header("CH-UserID", USER_ID));
-        LoggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
-        LoggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
-        mockServer
-                .when(request().withMethod(HttpMethod.POST.name())
-                        .withHeaders(LoggedInheaders)
-                        .withPath("/check_waitlist_status")
-                        .withBody(""))
-                .respond(response().withStatusCode(HttpStatus.OK.value())
-                        .withContentType(MediaType.APPLICATION_JSON)
-                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": false }"));
+        addWaitListedMockEndpoint(cookie, false);
 
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
@@ -212,19 +200,7 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
-        List<Header> LoggedInheaders = getBasicHeaders();
-        LoggedInheaders.add(new Header("Cookie", cookie));
-        LoggedInheaders.add(new Header("CH-UserID", USER_ID));
-        LoggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
-        LoggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
-        mockServer
-                .when(request().withMethod(HttpMethod.POST.name())
-                        .withHeaders(LoggedInheaders)
-                        .withPath("/check_waitlist_status")
-                        .withBody(""))
-                .respond(response().withStatusCode(HttpStatus.OK.value())
-                        .withContentType(MediaType.APPLICATION_JSON)
-                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": false }"));
+        addWaitListedMockEndpoint(cookie, false);
 
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
@@ -305,19 +281,7 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
-        List<Header> LoggedInheaders = getBasicHeaders();
-        LoggedInheaders.add(new Header("Cookie", cookie));
-        LoggedInheaders.add(new Header("CH-UserID", USER_ID));
-        LoggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
-        LoggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
-        mockServer
-                .when(request().withMethod(HttpMethod.POST.name())
-                        .withHeaders(LoggedInheaders)
-                        .withPath("/check_waitlist_status")
-                        .withBody(""))
-                .respond(response().withStatusCode(HttpStatus.OK.value())
-                        .withContentType(MediaType.APPLICATION_JSON)
-                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": true }"));
+        addWaitListedMockEndpoint(cookie, true);
 
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
@@ -393,19 +357,7 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
-        List<Header> LoggedInheaders = getBasicHeaders();
-        LoggedInheaders.add(new Header("Cookie", cookie));
-        LoggedInheaders.add(new Header("CH-UserID", USER_ID));
-        LoggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
-        LoggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
-        mockServer
-                .when(request().withMethod(HttpMethod.POST.name())
-                        .withHeaders(LoggedInheaders)
-                        .withPath("/check_waitlist_status")
-                        .withBody(""))
-                .respond(response().withStatusCode(HttpStatus.OK.value())
-                        .withContentType(MediaType.APPLICATION_JSON)
-                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": false }"));
+        addWaitListedMockEndpoint(cookie, false);
 
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
@@ -541,7 +493,7 @@ public class AuthControllerTest extends BaseMockTest {
                 .withHeaders(testLoginService.getRequiredLoginHeaders())
                 .withPath("/me")
                 .withBody(json("{"
-                        + " \"return_blocked_ids\": true, \"timezone_identifier\": \"Asia/Tokyo\", \"return_following_ids\": true}",
+                                + " \"return_blocked_ids\": true, \"timezone_identifier\": \"Asia/Tokyo\", \"return_following_ids\": true}",
                         MatchType.ONLY_MATCHING_FIELDS)))
                 .respond(response().withStatusCode(HttpStatus.OK.value())
                         .withContentType(MediaType.APPLICATION_JSON)
@@ -693,6 +645,23 @@ public class AuthControllerTest extends BaseMockTest {
                 .isEqualTo("false");
 
     }
+
+    protected void addWaitListedMockEndpoint(String cookie, boolean waitListed) {
+        List<Header> loggedInheaders = getBasicHeaders();
+        loggedInheaders.add(new Header("Cookie", cookie));
+        loggedInheaders.add(new Header("CH-UserID", USER_ID));
+        loggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
+        loggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(loggedInheaders)
+                        .withPath("/check_waitlist_status")
+                        .withBody(""))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": " + waitListed + " }"));
+    }
+
 
     public String login(boolean waitListed) {
         return testLoginService.login(waitListed, mockServer, testClientBuilder);

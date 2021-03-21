@@ -43,14 +43,14 @@ public class TestLoginService {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
-        List<Header> LoggedInheaders = TestAuthConst.getBasicHeaders();
-        LoggedInheaders.add(new Header("Cookie", cookie));
-        LoggedInheaders.add(new Header("CH-UserID", USER_ID));
-        LoggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
-        LoggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
+        List<Header> loggedInheaders = TestAuthConst.getBasicHeaders();
+        loggedInheaders.add(new Header("Cookie", cookie));
+        loggedInheaders.add(new Header("CH-UserID", USER_ID));
+        loggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
+        loggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
         mockServer
                 .when(request().withMethod(HttpMethod.POST.name())
-                        .withHeaders(LoggedInheaders)
+                        .withHeaders(loggedInheaders)
                         .withPath("/check_waitlist_status")
                         .withBody(""))
                 .respond(response().withStatusCode(HttpStatus.OK.value())
