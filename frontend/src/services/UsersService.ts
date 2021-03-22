@@ -146,6 +146,45 @@ class UsersService {
 
             });
     }
+
+    updateBio(bio: string) {
+        return axios
+            .post<EmptyResponse>(API_URL + "update_bio", {"bio": bio})
+            .then(response => {
+                if (response.data && response.data.success) {
+                    return response.data;
+                } else {
+                    throw new Error("Cant update bio, reason: " + response.status + " " +
+                        (response.data ? response.data.error_message : ""));
+                }
+            });
+    }
+
+    updateName(name: string) {
+        return axios
+            .post<EmptyResponse>(API_URL + "update_name", {"name": name})
+            .then(response => {
+                if (response.data && response.data.success) {
+                    return response.data;
+                } else {
+                    throw new Error("Cant update name, reason: " + response.status + " " +
+                        (response.data ? response.data.error_message : ""));
+                }
+            });
+    }
+
+    updateUsername(username: string) {
+        return axios
+            .post<EmptyResponse>(API_URL + "update_username", {"username": username})
+            .then(response => {
+                if (response.data && response.data.success) {
+                    return response.data;
+                } else {
+                    throw new Error("Cant update username, reason: " + response.status + " " +
+                        (response.data ? response.data.error_message : ""));
+                }
+            });
+    }
 }
 
 export default new UsersService();

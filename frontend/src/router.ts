@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter, {RouteConfig} from "vue-router";
 import PhoneAuthStart from "@/components/PhoneAuthStart.vue";
 import UserProfile from "@/components/UserProfile.vue";
-import Index from '@/store/index';
 import Club from "@/components/Club.vue";
 import Followers from "@/components/Followers.vue";
 import Following from "@/components/Following.vue";
@@ -107,6 +106,11 @@ const routes: Array<RouteConfig> = [
         name: 'Profile',
         // lazy-loaded
         component: () => import('./components/MyProfile.vue')
+    },
+    {
+        path: '/update_bio',
+        name: 'UpdateBio',
+        component: () => import('./components/UpdateBio.vue')
     }
 ];
 

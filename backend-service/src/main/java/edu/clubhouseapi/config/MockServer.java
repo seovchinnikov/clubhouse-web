@@ -487,6 +487,66 @@ public class MockServer implements InitializingBean, DisposableBean {
                         .withContentType(MediaType.APPLICATION_JSON)
                         .withBody("{\"success\": true, \"unused_attr\": 2}")
                         .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+
+        // update_bio
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_bio")
+                        .withBody(json("{\"bio\": \"test error\"}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.BAD_REQUEST.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": false, \"error\": \"Bad request\"}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_bio")
+                        .withBody(json("{}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+
+        //  update_name
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_name")
+                        .withBody(json("{\"name\": \"test error\"}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.BAD_REQUEST.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": false, \"error\": \"Bad request\"}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_name")
+                        .withBody(json("{}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+
+        //  update_username
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_username")
+                        .withBody(json("{\"username\": \"test error\"}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.BAD_REQUEST.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": false, \"error\": \"Bad request\"}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/update_username")
+                        .withBody(json("{}", MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true}")
+                        .withHeader(new Header("Content-Type", "application/json; charset=utf-8")));
     }
 
     protected List<Header> replaceHeader(List<Header> headers, Header what, Header by) {
