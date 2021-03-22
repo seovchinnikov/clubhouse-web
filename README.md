@@ -99,7 +99,7 @@ json responses instead of sending requests to CH). And
 
 ```java -jar -Dspring.profiles.active=dev backend-service-0.0.1-SNAPSHOT.jar```
 
-Will start app under dev profile.
+Will start app under dev profile. **Dev server serves on 8081 not 8080**.
 
 **Audio client**:
 
