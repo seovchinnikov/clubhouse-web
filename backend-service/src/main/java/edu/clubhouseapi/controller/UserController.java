@@ -1,17 +1,6 @@
 package edu.clubhouseapi.controller;
 
-import edu.clubhouseapi.dto.EmptyResponse;
-import edu.clubhouseapi.dto.FollowUnfollowRequest;
-import edu.clubhouseapi.dto.FollowersResponse;
-import edu.clubhouseapi.dto.FollowingResponse;
-import edu.clubhouseapi.dto.MeRequest;
-import edu.clubhouseapi.dto.MeResponse;
-import edu.clubhouseapi.dto.NotificationsResponse;
-import edu.clubhouseapi.dto.ProfileRequest;
-import edu.clubhouseapi.dto.ProfileResponse;
-import edu.clubhouseapi.dto.SearchRequest;
-import edu.clubhouseapi.dto.SuggestedFollowsResponse;
-import edu.clubhouseapi.dto.UserSearchResponse;
+import edu.clubhouseapi.dto.*;
 import edu.clubhouseapi.service.ClubHouseUserApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -79,5 +68,20 @@ public class UserController {
     public Mono<NotificationsResponse> getNotifications(@RequestParam("page_size") @NotNull Integer pageSize,
             @RequestParam("page") @NotNull Integer page) {
         return clubHouseUserApiService.getNotifications(pageSize, page);
+    }
+
+    @PostMapping("/api/update_bio")
+    public Mono<EmptyResponse> updateBio(@RequestBody @Valid UpdateBioRequest updateBioRequest) {
+        return clubHouseUserApiService.updateBio(updateBioRequest);
+    }
+
+    @PostMapping("/api/update_name")
+    public Mono<EmptyResponse> updateBio(@RequestBody @Valid UpdateNameRequest updateNameRequest) {
+        return clubHouseUserApiService.updateName(updateNameRequest);
+    }
+
+    @PostMapping("/api/update_username")
+    public Mono<EmptyResponse> updateBio(@RequestBody @Valid UpdateUsernameRequest updateUsernameRequest) {
+        return clubHouseUserApiService.updateUsername(updateUsernameRequest);
     }
 }

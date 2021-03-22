@@ -13,16 +13,28 @@
         <v-container>
             <v-row no-gutters>
                 <v-col cols="7">
-                    <v-card-title>{{userData ? userData.name : ""}}</v-card-title>
+                    <v-card-title>
+                      <span @click="showEditName=true" class="with-pointer">
+                        {{userData ? userData.name : ""}}
+                      </span>
+                    </v-card-title>
 
                     <v-card-text>
                         <div class="my-4 subtitle-1">
+                          <span @click="showEditUsername=true" class="with-pointer">
                             @{{userData ? userData.username : ""}}
+                          </span>
                         </div>
 
-                        <div>{{userData ? userData.bio : ""}}</div>
-
-                        <div></div>
+                      <div>
+                          <span
+                              @click="updateBio"
+                              class="with-pointer"
+                              v-bind:style="userData && userData.bio ? '' : 'color: blue'"
+                          >
+                            {{userData && userData.bio ? userData.bio : "Add a bio"}}
+                          </span>
+                      </div>
                     </v-card-text>
                 </v-col>
                 <v-col cols="1">
@@ -115,6 +127,54 @@
                 Update
             </v-btn>
         </v-card-actions>
+
+        <v-dialog
+            v-model="showEditName"
+            max-width="500px"
+        >
+          <v-card>
+            <v-card-text>
+              <v-text-field label="Update your name" v-model="name"></v-text-field>
+              <small class="grey--text">Be careful! You can only do this once</small>
+            </v-card-text>
+
+            <v-card-actions>
+              <v-spacer></v-spacer>
+
+              <v-btn
+                  text
+                  color="primary"
+                  @click="updateName"
+              >
+                Done
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-dialog>
+        <v-dialog
+            v-model="showEditUsername"
+            max-width="500px"
+        >
+          <v-card>
+            <v-card-text>
+              <v-text-field label="Update your username" v-model="username"></v-text-field>
+              <small class="grey--text">Be careful! You can only do this once</small>
+            </v-card-text>
+
+            <v-card-actions>
+              <v-spacer></v-spacer>
+
+              <v-btn
+                  text
+                  color="primary"
+                  @click="updateUsername"
+              >
+                Done
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-dialog>
+
         <div class="form-group">
             <div v-if="message" class="alert alert-danger" role="alert">
                 {{ message }}
@@ -156,6 +216,10 @@
         private message: string = "";
         private userData!: UserProfileInfoResponse;
         private avatar: string = '/img/no-avatar.png';
+        private showEditName: boolean = false;
+        private showEditUsername: boolean = false;
+        private name: string = "";
+        private username: string = "";
 
 
         mounted() {
@@ -176,6 +240,9 @@
             this.loading = true
             UsersService.getUser(this.currentUser.user_id).then(data => {
                     this.userData = data.user_profile;
+                    this.name = this.userData ? this.userData.name : "";
+                    this.username = this.userData ? this.userData.username : "";
+                    this.message = "";
                     this.loading = false;
                     this.avatar = this.userData.photo_url ? this.userData.photo_url : '/img/no-avatar.png';
                 },
@@ -196,6 +263,44 @@
         openFollowers(id: string) {
             this.$router.push({name: 'Followers', params: {'id': "" + id}})
         }
+
+        updateBio() {
+          this.$router.push({name: 'UpdateBio'})
+        }
+
+        updateName() {
+          this.loading = true;
+          UsersService.updateName(this.name).then(() => {
+                const waitUntilDataUpdatedMs = 2000;
+                setTimeout(() => {
+                  this.loading = false;
+                  this.showEditName = false;
+                  this.getDataFromApi();
+                }, waitUntilDataUpdatedMs);
+              },
+              (error) => {
+                this.loading = false;
+                this.showEditName = false;
+                this.message = error;
+              });
+        }
+
+        updateUsername() {
+          this.loading = true;
+          UsersService.updateUsername(this.username).then(() => {
+                const waitUntilDataUpdatedMs = 2000;
+                setTimeout(() => {
+                  this.loading = false;
+                  this.showEditUsername = false;
+                  this.getDataFromApi();
+                }, waitUntilDataUpdatedMs);
+              },
+              (error) => {
+                this.loading = false;
+                this.showEditUsername = false;
+                this.message = error;
+              });
+        }
     }
 </script>
 
@@ -206,5 +311,9 @@
 
     .v-avatar {
         cursor: pointer !important;
+    }
+
+    span.with-pointer {
+      cursor: pointer !important;
     }
 </style>

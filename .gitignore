@@ -1,4 +1,5 @@
 target/
+*.log
 
 # UI
 .DS_Store

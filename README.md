@@ -92,12 +92,12 @@ When you'll finish your room participation and don't need audio speaking/listeni
 
 **Web app**:
 
-```mvn clean install -P dev```
+```./mvnw clean install -P dev```
 
 This command will build web application under dev profile (Mock Server will be started to produce static 
 json responses instead of sending requests to CH). And
 
-```java -jar -Dspring.profiles.active=dev backend-service-0.0.1-SNAPSHOT.jar```
+```java -jar -Dspring.profiles.active=dev backend-service/target/backend-service-0.0.1-SNAPSHOT.jar```
 
 Will start app under dev profile. **Dev server serves on 8081 not 8080**.
 

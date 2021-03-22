@@ -1,18 +1,7 @@
 package edu.clubhouseapi.service;
 
 import edu.clubhouseapi.config.ClubHouseConfigProperties;
-import edu.clubhouseapi.dto.EmptyResponse;
-import edu.clubhouseapi.dto.FollowUnfollowRequest;
-import edu.clubhouseapi.dto.FollowersResponse;
-import edu.clubhouseapi.dto.FollowingResponse;
-import edu.clubhouseapi.dto.MeRequest;
-import edu.clubhouseapi.dto.MeResponse;
-import edu.clubhouseapi.dto.NotificationsResponse;
-import edu.clubhouseapi.dto.ProfileRequest;
-import edu.clubhouseapi.dto.ProfileResponse;
-import edu.clubhouseapi.dto.SearchRequest;
-import edu.clubhouseapi.dto.SuggestedFollowsResponse;
-import edu.clubhouseapi.dto.UserSearchResponse;
+import edu.clubhouseapi.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -240,5 +229,35 @@ public class ClubHouseUserApiService {
                 })
                 .switchIfEmpty(Mono.defer(
                         () -> Mono.just(NotificationsResponse.builder().success(false).errorMessage("Empty").build())));
+    }
+
+    public Mono<EmptyResponse> updateBio(UpdateBioRequest updateBioRequest) {
+        return clubHouseWebClientBuilder.baseUrl(clubHouseConfigProperties.getApiUrl()).build()
+                .post()
+                .uri("/update_bio")
+                .bodyValue(updateBioRequest)
+                .retrieve()
+                .bodyToMono(EmptyResponse.class)
+                .switchIfEmpty(Mono.just(EmptyResponse.failure()));
+    }
+
+    public Mono<EmptyResponse> updateName(UpdateNameRequest updateNameRequest) {
+        return clubHouseWebClientBuilder.baseUrl(clubHouseConfigProperties.getApiUrl()).build()
+                .post()
+                .uri("/update_name")
+                .bodyValue(updateNameRequest)
+                .retrieve()
+                .bodyToMono(EmptyResponse.class)
+                .switchIfEmpty(Mono.just(EmptyResponse.failure()));
+    }
+
+    public Mono<EmptyResponse> updateUsername(UpdateUsernameRequest updateUsernameRequest) {
+        return clubHouseWebClientBuilder.baseUrl(clubHouseConfigProperties.getApiUrl()).build()
+                .post()
+                .uri("/update_username")
+                .bodyValue(updateUsernameRequest)
+                .retrieve()
+                .bodyToMono(EmptyResponse.class)
+                .switchIfEmpty(Mono.just(EmptyResponse.failure()));
     }
 }
