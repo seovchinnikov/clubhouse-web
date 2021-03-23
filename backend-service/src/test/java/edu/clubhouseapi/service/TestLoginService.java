@@ -43,6 +43,20 @@ public class TestLoginService {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
+        List<Header> loggedInheaders = TestAuthConst.getBasicHeaders();
+        loggedInheaders.add(new Header("Cookie", cookie));
+        loggedInheaders.add(new Header("CH-UserID", USER_ID));
+        loggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
+        loggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(loggedInheaders)
+                        .withPath("/check_waitlist_status")
+                        .withBody(""))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": " + waitListed + " }"));
+
         List<Header> headers = TestAuthConst.getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
         headers.add(new Header("CH-UserID", "(null)"));
@@ -67,7 +81,7 @@ public class TestLoginService {
                                 + ",  \"is_onboarding\": false,"
                                 + " \"user_profile\" : {\"user_id\": \""
                                 + USER_ID
-                                + "\", \"unused_attr\": 2}"
+                                + "\", \"unused_attr\": 2, \"username\": \"test\"}"
                                 + "}"));
 
         AtomicReference<String> innerToken = new AtomicReference<>();

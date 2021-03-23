@@ -12,6 +12,7 @@ import edu.clubhouseapi.roles.UserRole;
 import edu.clubhouseapi.service.ClubHouseAuthApiService;
 import edu.clubhouseapi.service.ClubHouseStaticFilesService;
 import edu.clubhouseapi.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.ReactiveSecurityContextHolder;
 import org.springframework.security.core.context.SecurityContext;
@@ -22,10 +23,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
+import javax.validation.Valid;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.validation.Valid;
 
 @RestController
 public class AuthController {
@@ -44,7 +45,7 @@ public class AuthController {
 
     @PostMapping(value = "/api/start_phone_number_auth")
     public Mono<StartPhoneNumberAuthResponse>
-            startPhoneNumberAuth(@RequestBody @Valid Mono<StartPhoneNumberAuthRequest> userMono) {
+    startPhoneNumberAuth(@RequestBody @Valid Mono<StartPhoneNumberAuthRequest> userMono) {
         return userMono.zipWith(userService.userInfo()).map(objects -> {
             if (objects.getT2().getPrincipal() != null) {
                 throw new RuntimeException("Only for not authorized users");
@@ -56,7 +57,7 @@ public class AuthController {
 
     @PostMapping(value = "/api/complete_phone_number_auth")
     public Mono<ClubHouseAuthResult>
-            finishPhoneNumberAuth(@RequestBody @Valid Mono<FinishPhoneNumberAuthRequest> userMono) {
+    finishPhoneNumberAuth(@RequestBody @Valid Mono<FinishPhoneNumberAuthRequest> userMono) {
         return userMono.zipWith(userService.userInfo()).map(objects -> {
             if (objects.getT2().getPrincipal() != null) {
                 throw new RuntimeException("Only for not authorized users");
@@ -76,9 +77,28 @@ public class AuthController {
                     .userToken(x.getAuthToken())
                     .userRefreshToken(x.getRefreshToken())
                     .waitListed(x.getWaitListed())
-                    .onboarding(x.getOnboarding())
+                    .onboarding(x.getOnboarding() || StringUtils.isEmpty(x.getUsername()))
                     .build();
-        }).map(x -> {
+            // delay because Club house has to refresh inner caches
+        }).delayElement(Duration.ofSeconds(1)).flatMap(clubHouseAuthResult -> {
+                    // update wait status because it's sometimes incorrect in original response
+                    if (!clubHouseAuthResult.getSuccess()) {
+                        return Mono.just(clubHouseAuthResult);
+                    }
+                    return clubHouseApiService.checkWaitlistedAfterFinishPhoneAuth(clubHouseAuthResult.getUserDevice(),
+                            clubHouseAuthResult.getUserCookie(), clubHouseAuthResult.getUserToken(),
+                            clubHouseAuthResult.getUserId()).map(statusResponse -> {
+                        if (!statusResponse.getSuccess()) {
+                            clubHouseAuthResult.setSuccess(false);
+                            clubHouseAuthResult.setErrorMessage(statusResponse.getErrorMessage());
+                            return clubHouseAuthResult;
+                        }
+                        clubHouseAuthResult.setWaitListed(statusResponse.getIsWaitlisted());
+                        return clubHouseAuthResult;
+                    });
+                }
+
+        ).map(x -> {
             if (!x.getSuccess()) {
                 return x;
             }

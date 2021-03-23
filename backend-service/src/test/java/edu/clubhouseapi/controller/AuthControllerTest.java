@@ -134,6 +134,8 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
+        addWaitListedMockEndpoint(cookie, false);
+
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
         headers.add(new Header("CH-UserID", "(null)"));
@@ -156,7 +158,7 @@ public class AuthControllerTest extends BaseMockTest {
                                 + "\", \"is_waitlisted\": false,  \"is_onboarding\": false,"
                                 + " \"user_profile\" : {\"user_id\": \""
                                 + USER_ID
-                                + "\", \"unused_attr\": 2}"
+                                + "\", \"unused_attr\": 2, \"username\": \"test\"}"
                                 + "}"));
 
         testClientBuilder.build()
@@ -198,6 +200,8 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
+        addWaitListedMockEndpoint(cookie, false);
+
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
         headers.add(new Header("CH-UserID", "(null)"));
@@ -220,7 +224,7 @@ public class AuthControllerTest extends BaseMockTest {
                                 + "\", \"is_waitlisted\": false,  \"is_onboarding\": false,"
                                 + " \"user_profile\" : {\"user_id\": \""
                                 + USER_ID
-                                + "\", \"unused_attr\": 2}"
+                                + "\", \"unused_attr\": 2, \"username\": \"test\"}"
                                 + "}"));
 
         AtomicReference<String> innerToken = new AtomicReference<>();
@@ -277,6 +281,8 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
+        addWaitListedMockEndpoint(cookie, true);
+
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
         headers.add(new Header("CH-UserID", "(null)"));
@@ -299,7 +305,7 @@ public class AuthControllerTest extends BaseMockTest {
                                 + "\", \"is_waitlisted\": true,  \"is_onboarding\": false,"
                                 + " \"user_profile\" : {\"user_id\": \""
                                 + USER_ID
-                                + "\", \"unused_attr\": 2}"
+                                + "\", \"unused_attr\": 2, \"username\": \"test\"}"
                                 + "}"));
 
         AtomicReference<String> innerToken = new AtomicReference<>();
@@ -351,6 +357,8 @@ public class AuthControllerTest extends BaseMockTest {
         String cookie = "__cfduid=" + COOKIE;
         Mockito.when(byteUtils.randomCookieId()).thenReturn(cookie.replace("__cfduid=", ""));
 
+        addWaitListedMockEndpoint(cookie, false);
+
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
         headers.add(new Header("CH-UserID", "(null)"));
@@ -373,7 +381,7 @@ public class AuthControllerTest extends BaseMockTest {
                                 + "\", \"is_waitlisted\": false,  \"is_onboarding\": false,"
                                 + " \"user_profile\" : {\"user_id\": \""
                                 + USER_ID
-                                + "\", \"unused_attr\": 2}"
+                                + "\", \"unused_attr\": 2, \"username\": \"test\"}"
                                 + "}"));
 
         AtomicReference<String> innerToken = new AtomicReference<>();
@@ -463,8 +471,8 @@ public class AuthControllerTest extends BaseMockTest {
     }
 
     @Test
-    public void testWaitListed() throws IOException {
-        String token = login(true);
+    public void testWaitListedFalse() throws IOException {
+        String token = login(false);
         String cookie = "__cfduid=" + COOKIE;
         List<Header> headers = getBasicHeaders();
         headers.add(new Header("Cookie", cookie));
@@ -485,7 +493,7 @@ public class AuthControllerTest extends BaseMockTest {
                 .withHeaders(testLoginService.getRequiredLoginHeaders())
                 .withPath("/me")
                 .withBody(json("{"
-                        + " \"return_blocked_ids\": true, \"timezone_identifier\": \"Asia/Tokyo\", \"return_following_ids\": true}",
+                                + " \"return_blocked_ids\": true, \"timezone_identifier\": \"Asia/Tokyo\", \"return_following_ids\": true}",
                         MatchType.ONLY_MATCHING_FIELDS)))
                 .respond(response().withStatusCode(HttpStatus.OK.value())
                         .withContentType(MediaType.APPLICATION_JSON)
@@ -536,6 +544,84 @@ public class AuthControllerTest extends BaseMockTest {
                 .jsonPath("roles")
                 .value(t -> roles.set((List<String>) t));
         assertThat(roles.get()).contains("ROLE_ACTIVE");
+        assertThat(roles.get()).contains("ROLE_NOWAIT");
+    }
+
+    @Test
+    public void testWaitListedTrue() throws IOException {
+        String token = login(true);
+        String cookie = "__cfduid=" + COOKIE;
+        List<Header> headers = getBasicHeaders();
+        headers.add(new Header("Cookie", cookie));
+        headers.add(new Header("CH-UserID", USER_ID));
+        headers.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
+        headers.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(headers)
+                        .withPath("/check_waitlist_status")
+                        .withBody(""))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": true }"));
+
+        // /me
+        mockServer.when(request().withMethod(HttpMethod.POST.name())
+                .withHeaders(testLoginService.getRequiredLoginHeaders())
+                .withPath("/me")
+                .withBody(json("{"
+                                + " \"return_blocked_ids\": true, \"timezone_identifier\": \"Asia/Tokyo\", \"return_following_ids\": true}",
+                        MatchType.ONLY_MATCHING_FIELDS)))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody(classPathUtils.getResourceAsString("responses/me.json",
+                                StandardCharsets.UTF_8)));
+
+        AtomicReference<String> newToken = new AtomicReference<>();
+        testClientBuilder.build()
+                .post()
+                .uri("/api/check_waitlist_status")
+                .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
+                .header("Authorization", "Bearer " + token)
+                .bodyValue("")
+                .exchange()
+                .expectStatus()
+                .is2xxSuccessful()
+                .expectHeader()
+                .valueEquals("Content-Type", "application/json")
+                .expectBody()
+                .jsonPath("success")
+                .isEqualTo("true")
+                .jsonPath("is_waitlisted")
+                .isEqualTo(true)
+                .jsonPath("token")
+                .value(t -> newToken.set((String) t));
+
+        // check waitlisted status for new token
+        AtomicReference<List<String>> roles = new AtomicReference<>();
+        testClientBuilder.build()
+                .get()
+                .uri("/api/user_info")
+                .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
+                .header("Authorization", "Bearer " + newToken.get())
+                .exchange()
+                .expectStatus()
+                .is2xxSuccessful()
+                .expectBody()
+                .jsonPath("user_id")
+                .isEqualTo(USER_ID)
+                .jsonPath("user_cookie")
+                .isEqualTo(cookie)
+                .jsonPath("user_device")
+                .isEqualTo(byteUtils.fixedUuidFromString(cookie))
+                .jsonPath("user_token")
+                .isEqualTo(TOKEN)
+                .jsonPath("roles")
+                .value(t -> roles.set((List<String>) t));
+        assertThat(roles.get()).doesNotContain("ROLE_ACTIVE");
+        assertThat(roles.get()).doesNotContain("ROLE_NOWAIT");
     }
 
     @Test
@@ -559,6 +645,23 @@ public class AuthControllerTest extends BaseMockTest {
                 .isEqualTo("false");
 
     }
+
+    protected void addWaitListedMockEndpoint(String cookie, boolean waitListed) {
+        List<Header> loggedInheaders = getBasicHeaders();
+        loggedInheaders.add(new Header("Cookie", cookie));
+        loggedInheaders.add(new Header("CH-UserID", USER_ID));
+        loggedInheaders.add(new Header("CH-DeviceId", byteUtils.fixedUuidFromString(cookie)));
+        loggedInheaders.add(new Header("Authorization", TOKEN_PREFIX + TOKEN));
+        mockServer
+                .when(request().withMethod(HttpMethod.POST.name())
+                        .withHeaders(loggedInheaders)
+                        .withPath("/check_waitlist_status")
+                        .withBody(""))
+                .respond(response().withStatusCode(HttpStatus.OK.value())
+                        .withContentType(MediaType.APPLICATION_JSON)
+                        .withBody("{\"success\": true, \"unused_attr\": 2, \"is_waitlisted\": " + waitListed + " }"));
+    }
+
 
     public String login(boolean waitListed) {
         return testLoginService.login(waitListed, mockServer, testClientBuilder);
