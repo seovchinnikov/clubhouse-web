@@ -34,10 +34,11 @@ That's why I don't implement registration finishing step in the app.
 * Notifications
 * Channels recommended list
 * Events recommended list
+* User profile info updating (bio, username, name)
 
 ## To be done features  (PRs are welcome)
 
-* User profile info updating (bio, avatar, instagram/twitter profiles)
+* User profile info updating (avatar, instagram/twitter profiles)
 * Room creation
 * Topics exploration
 * Pinging inside room
@@ -97,7 +98,7 @@ When you'll finish your room participation and don't need audio speaking/listeni
 This command will build web application under dev profile (Mock Server will be started to produce static 
 json responses instead of sending requests to CH). And
 
-```java -jar -Dspring.profiles.active=dev backend-service/target/backend-service-0.0.1-SNAPSHOT.jar```
+```java -jar -Dspring.profiles.active=dev backend-service/target/backend-service-0.0.2-SNAPSHOT.jar```
 
 Will start app under dev profile. **Dev server serves on 8081 not 8080**.
 

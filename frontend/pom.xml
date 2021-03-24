@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.clubhouseapi</groupId>
     <artifactId>frontend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Clubhouse frontend</name>
 
     <parent>
         <groupId>edu.clubhouseapi</groupId>
         <artifactId>app</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <properties>
