@@ -93,14 +93,24 @@ When you'll finish your room participation and don't need audio speaking/listeni
 
 **Web app**:
 
+Build:
+
 ```./mvnw clean install -P dev```
 
-This command will build web application under dev profile (Mock Server will be started to produce static 
-json responses instead of sending requests to CH). And
+All maven profiles:
+1. -P dev (alternate to 2) => build under dev profile (Mock Server will be started to produce static 
+                json responses instead of sending requests to CH)
+2. -P default (alternate to 1) => build under prod profile (requests are going to CH)
+3. -P docker-build => build docker image
+4. -P docker-push => push docker image
+
+And
 
 ```java -jar -Dspring.profiles.active=dev backend-service/target/backend-service-0.0.2-SNAPSHOT.jar```
 
 Will start app under dev profile. **Dev server serves on 8081 not 8080**.
+
+You can use -Dspring.profiles.active=default instead of dev to use prod mode.
 
 **Audio client**:
 
