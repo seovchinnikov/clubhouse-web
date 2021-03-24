@@ -134,7 +134,7 @@
         >
           <v-card>
             <v-card-text>
-              <v-text-field label="Update your name" v-model="name"></v-text-field>
+              <v-text-field label="Update your name" v-model="editableName"></v-text-field>
               <small class="grey--text">Be careful! You can only do this once</small>
             </v-card-text>
 
@@ -157,7 +157,7 @@
         >
           <v-card>
             <v-card-text>
-              <v-text-field label="Update your username" v-model="username"></v-text-field>
+              <v-text-field label="Update your username" v-model="editableUsername"></v-text-field>
               <small class="grey--text">Be careful! You can only do this once</small>
             </v-card-text>
 
@@ -218,8 +218,8 @@
         private avatar: string = '/img/no-avatar.png';
         private showEditName: boolean = false;
         private showEditUsername: boolean = false;
-        private name: string = "";
-        private username: string = "";
+        private editableName: string = "";
+        private editableUsername: string = "";
 
 
         mounted() {
@@ -240,8 +240,8 @@
             this.loading = true
             UsersService.getUser(this.currentUser.user_id).then(data => {
                     this.userData = data.user_profile;
-                    this.name = this.userData ? this.userData.name : "";
-                    this.username = this.userData ? this.userData.username : "";
+                    this.editableName = this.userData ? this.userData.name : "";
+                    this.editableUsername = this.userData ? this.userData.username : "";
                     this.message = "";
                     this.loading = false;
                     this.avatar = this.userData.photo_url ? this.userData.photo_url : '/img/no-avatar.png';
@@ -270,7 +270,7 @@
 
         updateName() {
           this.loading = true;
-          UsersService.updateName(this.name).then(() => {
+          UsersService.updateName(this.editableName).then(() => {
                 const waitUntilDataUpdatedMs = 2000;
                 setTimeout(() => {
                   this.loading = false;
@@ -287,7 +287,7 @@
 
         updateUsername() {
           this.loading = true;
-          UsersService.updateUsername(this.username).then(() => {
+          UsersService.updateUsername(this.editableUsername).then(() => {
                 const waitUntilDataUpdatedMs = 2000;
                 setTimeout(() => {
                   this.loading = false;

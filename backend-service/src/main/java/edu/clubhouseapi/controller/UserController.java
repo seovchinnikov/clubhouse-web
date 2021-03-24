@@ -76,12 +76,12 @@ public class UserController {
     }
 
     @PostMapping("/api/update_name")
-    public Mono<EmptyResponse> updateBio(@RequestBody @Valid UpdateNameRequest updateNameRequest) {
+    public Mono<EmptyResponse> updateName(@RequestBody @Valid UpdateNameRequest updateNameRequest) {
         return clubHouseUserApiService.updateName(updateNameRequest);
     }
 
     @PostMapping("/api/update_username")
-    public Mono<EmptyResponse> updateBio(@RequestBody @Valid UpdateUsernameRequest updateUsernameRequest) {
+    public Mono<EmptyResponse> updateUsername(@RequestBody @Valid UpdateUsernameRequest updateUsernameRequest) {
         return clubHouseUserApiService.updateUsername(updateUsernameRequest);
     }
 }
